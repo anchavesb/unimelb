@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.11)  21 NOV 2014 11:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.11)  21 NOV 2014 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -240,6 +240,10 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2013/12/03 3.9h The Babel package
 
@@ -292,7 +296,7 @@ LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count93
 \c@MaxMatrixCols=\count94
-\dotsspace@=\muskip10
+\dotsspace@=\muskip11
 \c@parentequation=\count95
 \dspbrk@lvl=\count96
 \tag@help=\toks17
@@ -385,18 +389,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (./Research_Proposal.aux)
 \openout1 = `Research_Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -489,16 +493,16 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
  []
 
@@ -507,68 +511,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 \openout3 = `Research_Proposal.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--45
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
+<NMS_GeneralDiagram.png, id=14, 1273.75874pt x 396.48125pt>
+File: NMS_GeneralDiagram.png Graphic file (type png)
+
+<use NMS_GeneralDiagram.png>
+Package pdftex.def Info: NMS_GeneralDiagram.png used on input line 55.
+(pdftex.def)             Requested size: 636.87782pt x 198.24013pt.
+
+Overfull \hbox (153.18095pt too wide) in paragraph at lines 55--57
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 64.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
-[2] (./Research_Proposal.aux) ) 
+<ML_ProposedComponents.png, id=15, 480.79625pt x 402.50375pt>
+File: ML_ProposedComponents.png Graphic file (type png)
+
+<use ML_ProposedComponents.png>
+Package pdftex.def Info: ML_ProposedComponents.png used on input line 79.
+(pdftex.def)             Requested size: 240.39752pt x 201.25137pt.
+ [2] [3] [4 <./NMS_GeneralDiagram.png> <./ML_ProposedComponents.png>] (./Resear
+ch_Proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 3449 strings out of 494985
- 45014 string characters out of 6180355
- 116013 words of memory out of 5000000
- 6598 multiletter control sequences out of 15000+600000
- 10451 words of font info for 39 fonts, out of 8000000 for 9000
+ 3572 strings out of 494985
+ 46714 string characters out of 6180355
+ 118132 words of memory out of 5000000
+ 6706 multiletter control sequences out of 15000+600000
+ 13013 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,8n,24p,417b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Research_Proposal.pdf (2 pages, 105481 bytes).
+ 38i,8n,24p,417b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb>
+Output written on Research_Proposal.pdf (4 pages, 190611 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
