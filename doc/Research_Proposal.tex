@@ -52,7 +52,7 @@ The Machine Learning technique will be used for correlation rules generation as 
 A generic SNMP Network Management System is a stream based system that conceptually can be divided in several stages: Alarm reception, alarm translation and enrichment, event correlation and event presentation. A conceptual schema can be seen on Figure \ref{fig:nms_generaldiagram}
 \\\
 \begin{figure}[H]
- \includegraphics[scale=0.5]{NMS_GeneralDiagram.png}
+ \includegraphics[scale=0.4]{NMS_GeneralDiagram.png}
   \centering
   \caption{\textit{A schematic of a generic Network Management System}}
   \label{fig:nms_generaldiagram}
@@ -76,27 +76,67 @@ The recording will have a flag to indicate whether the operator consider the ala
 The proposed components can be seen on figure \ref{fig:ml_componentdiagram}
 
 \begin{figure}[H]
- \includegraphics[scale=0.5]{ML_ProposedComponents.png}
+ \includegraphics[scale=0.7]{ML_ProposedComponents.png}
   \centering
   \caption{\textit{Proposed Machine Learning Application}}
   \label{fig:ml_componentdiagram}
 \end{figure}	
 
   \section{Time Table and Deliverables}
+The research project is decomposed by the following tasks and deliverables:
+
+\begin{center}
+ \begin{tabular}{||c | c | c | c||} 
+ \hline
+ Task & Date & Deliverable \\ [0.7ex] 
+ \hline\hline
+ First version of Research Proposal  & 2014/11/24 & Yes \\ 
+ \hline
+ Initial Data Set Acquisition (without Classification) & 2014/12/05 & No \\ 
+ \hline
+ Establishing ML Techniques to be used & 2014/12/16 & No \\
+ \hline
+ Development of a quick prototype to classify alarms & 2014/12/26 & No \\
+ \hline
+ Data Set Acquisition (with Classification)  & 2015/01/09 & No \\
+ \hline
+ Final version of Research Proposal & 2015/02/24 & Yes \\ [1ex] 
+ \hline
+ Application of ML Techniques to the dataset & 2014/03/24 & No \\
+ \hline
+ Analysis of each ML technique & 2014/04/16 & No \\
+ \hline
+ First version of the final report (Thesis) & 2014/05/11 & Yes \\
+ \hline
+ Final version of the final report (Thesis) & 2014/05/29 & Yes \\
+
+ \hline
+\end{tabular}
+\end{center}
+
+
   \section{Literature Review}
+As Network Management involves processing and analysis of large datasets there has been several attempts to use Machine Learning techniques to aid or improve this large analysis.
+\\\\
+The majority if the reviewed literature attemps to use Machine Learning into traffic flow analysis and Security. Traffic Analysis is one of the key parts in Network Management because it allows to determine patterns and behaviour segmented by type of traffic (HTTP, FTP, P2P, etc). For the security part the intention is to use Machine Learning to aid in the analysis of security logs to detect intrusion or attacks. While these topics are also part of Network Management the objectives and results differ with the purpose of this research.
+\\\\
+There are a couple of papers that have explored how to apply Machine Learning to alarm handling, The first one titled "Algorithm of Mining Fuzzy Association Rules in Network Management" attempts to reduce the volume of alarms in a event database by applying the theory of Fuzzy Sets to find the frequent sets and association rules between them.\cite{liu2003}.
+\\\\
+The second one, named "An Artificial Intelligence Approach to Network Fault Management" discuss what Artificial Intelligence methods can be applied to fault management and suggest the use of either Neural Networks or Bayesian Belief Networks to the problem \cite{kefferundef}.
 
 \begin{thebibliography}{9}
 
 \bibitem{netsnmp}Net-SNMP website, \url{http://www.net-snmp.org/}.
 \bibitem{snmptt}SNMPTT website, \url{http://snmptt.sourceforge.net/docs/snmptt.shtml}.
 \bibitem{sec}SEC website, \url{http://simple-evcorr.sourceforge.net}.
-\bibitem{lamport94}
-  Leslie Lamport,
-  \emph{\LaTeX: a document preparation system}.
-  Addison Wesley, Massachusetts,
-  2nd edition,
-  1994.
-
+\bibitem{liu2003}
+  Pei-Qi Liu, Zeng-Zhi Li, Yim-Liang Zhao,
+  \emph{Algorithm of Mining Fuzzy Association Rules in Network Management}.
+  Proceedings of the Second International Conference on Machine Learning and Cybernetics, Xi'an,
+  2003.
+\bibitem{kefferundef}
+  Denise W. Gürer, Irfan Khan, Richard Ogier, Renee Keffer,
+  \emph{An Artificial Intelligence Approach to Network Fault Management}.
 \end{thebibliography}
     
 \end{document}

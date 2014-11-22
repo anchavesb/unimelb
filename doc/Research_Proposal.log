@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.11)  21 NOV 2014 18:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.11)  22 NOV 2014 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -553,9 +553,9 @@ File: NMS_GeneralDiagram.png Graphic file (type png)
 
 <use NMS_GeneralDiagram.png>
 Package pdftex.def Info: NMS_GeneralDiagram.png used on input line 55.
-(pdftex.def)             Requested size: 636.87782pt x 198.24013pt.
+(pdftex.def)             Requested size: 509.49448pt x 158.58968pt.
 
-Overfull \hbox (153.18095pt too wide) in paragraph at lines 55--57
+Overfull \hbox (25.7976pt too wide) in paragraph at lines 55--57
  [][] 
  []
 
@@ -575,33 +575,47 @@ File: ML_ProposedComponents.png Graphic file (type png)
 
 <use ML_ProposedComponents.png>
 Package pdftex.def Info: ML_ProposedComponents.png used on input line 79.
-(pdftex.def)             Requested size: 240.39752pt x 201.25137pt.
- [2] [3] [4 <./NMS_GeneralDiagram.png> <./ML_ProposedComponents.png>] (./Resear
-ch_Proposal.aux) ) 
+(pdftex.def)             Requested size: 336.55507pt x 281.7507pt.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+
+ []
+
+[3] [4 <./NMS_GeneralDiagram.png> <./ML_ProposedComponents.png>]
+(./Research_Proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 3572 strings out of 494985
- 46714 string characters out of 6180355
- 118132 words of memory out of 5000000
+ 3571 strings out of 494985
+ 46706 string characters out of 6180355
+ 120136 words of memory out of 5000000
  6706 multiletter control sequences out of 15000+600000
- 13013 words of font info for 50 fonts, out of 8000000 for 9000
+ 12664 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,8n,24p,417b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb>
-Output written on Research_Proposal.pdf (4 pages, 190611 bytes).
+ 38i,8n,24p,564b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Research_Proposal.pdf (4 pages, 189153 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
