@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.11)  22 NOV 2014 22:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.11)  27 FEB 2015 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,12 +327,20 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count100
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks23
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -354,7 +362,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count100
+\Gread@gobject=\count101
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
@@ -373,9 +381,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count101
-\Gm@cntv=\count102
-\c@Gm@tempcnt=\count103
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
 \Gm@bindingoffset=\dimen115
 \Gm@wd@mp=\dimen116
 \Gm@odd@mp=\dimen117
@@ -384,37 +392,37 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen120
 \Gm@layouthoffset=\dimen121
 \Gm@layoutvoffset=\dimen122
-\Gm@dimlist=\toks22
+\Gm@dimlist=\toks24
 )
 (./Research_Proposal.aux)
 \openout1 = `Research_Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
+\scratchcounter=\count105
 \scratchdimen=\dimen123
-\scratchbox=\box28
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count107
+\scratchbox=\box30
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count108
 \MPscratchDim=\dimen124
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -493,16 +501,16 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 20--23
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
@@ -511,111 +519,192 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--23
 \openout3 = `Research_Proposal.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--45
+Underfull \hbox (badness 10000) in paragraph at lines 31--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--45
+Underfull \hbox (badness 10000) in paragraph at lines 31--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--45
+Underfull \hbox (badness 10000) in paragraph at lines 31--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--45
+Underfull \hbox (badness 10000) in paragraph at lines 31--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--45
+Underfull \hbox (badness 10000) in paragraph at lines 31--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--45
+Underfull \hbox (badness 10000) in paragraph at lines 31--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--45
+Underfull \hbox (badness 10000) in paragraph at lines 31--46
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<NMS_GeneralDiagram.png, id=14, 1273.75874pt x 396.48125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
+
+ []
+
+<NMS_FMS.png, id=14, 423.5825pt x 56.21pt>
+File: NMS_FMS.png Graphic file (type png)
+ <use NMS_FMS.png>
+Package pdftex.def Info: NMS_FMS.png used on input line 57.
+(pdftex.def)             Requested size: 169.43pt x 22.4836pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--61
+
+ []
+
+<NMS_FMS_EVENT.png, id=15, 423.5825pt x 56.21pt>
+File: NMS_FMS_EVENT.png Graphic file (type png)
+ <use NMS_FMS_EVENT.png>
+Package pdftex.def Info: NMS_FMS_EVENT.png used on input line 66.
+(pdftex.def)             Requested size: 169.43pt x 22.4836pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--70
+
+ []
+
+<NMS_FMS_EVENTS.png, id=16, 612.2875pt x 56.21pt>
+File: NMS_FMS_EVENTS.png Graphic file (type png)
+ <use NMS_FMS_EVENTS.png>
+Package pdftex.def Info: NMS_FMS_EVENTS.png used on input line 75.
+(pdftex.def)             Requested size: 244.91066pt x 22.4836pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--79
+
+ []
+
+[2 <./NMS_FMS.png> <./NMS_FMS_EVENT.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 81--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--86
+
+ []
+
+<MLS_hypothesis.png, id=21, 434.62375pt x 110.4125pt>
+File: MLS_hypothesis.png Graphic file (type png)
+ <use MLS_hypothesis.png>
+Package pdftex.def Info: MLS_hypothesis.png used on input line 88.
+(pdftex.def)             Requested size: 173.8464pt x 44.1642pt.
+
+<NMS_GeneralDiagram.png, id=22, 1273.75874pt x 396.48125pt>
 File: NMS_GeneralDiagram.png Graphic file (type png)
 
 <use NMS_GeneralDiagram.png>
-Package pdftex.def Info: NMS_GeneralDiagram.png used on input line 55.
+Package pdftex.def Info: NMS_GeneralDiagram.png used on input line 111.
 (pdftex.def)             Requested size: 509.49448pt x 158.58968pt.
 
-Overfull \hbox (25.7976pt too wide) in paragraph at lines 55--57
+Overfull \hbox (25.7976pt too wide) in paragraph at lines 111--113
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 64.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--115
+
+ []
+
+[3 <./NMS_FMS_EVENTS.png> <./MLS_hypothesis.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
+
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
-<ML_ProposedComponents.png, id=15, 480.79625pt x 402.50375pt>
+<ML_ProposedComponents.png, id=26, 480.79625pt x 402.50375pt>
 File: ML_ProposedComponents.png Graphic file (type png)
 
 <use ML_ProposedComponents.png>
-Package pdftex.def Info: ML_ProposedComponents.png used on input line 79.
+Package pdftex.def Info: ML_ProposedComponents.png used on input line 132.
 (pdftex.def)             Requested size: 336.55507pt x 281.7507pt.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 119--126
+ [4 <./NMS_GeneralDiagram.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--126
+Underfull \hbox (badness 10000) in paragraph at lines 177--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--126
+Underfull \hbox (badness 10000) in paragraph at lines 177--184
 
  []
 
-[3] [4 <./NMS_GeneralDiagram.png> <./ML_ProposedComponents.png>]
-(./Research_Proposal.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--184
+
+ []
+
+[5 <./ML_ProposedComponents.png>] [6] (./Research_Proposal.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3571 strings out of 494985
- 46706 string characters out of 6180355
- 120136 words of memory out of 5000000
- 6706 multiletter control sequences out of 15000+600000
+ 3656 strings out of 494985
+ 47958 string characters out of 6180355
+ 119539 words of memory out of 5000000
+ 6783 multiletter control sequences out of 15000+600000
  12664 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,8n,24p,564b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Research_Proposal.pdf (4 pages, 189153 bytes).
+ 38i,8n,24p,797b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+tt10.pfb>
+Output written on Research_Proposal.pdf (6 pages, 209290 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

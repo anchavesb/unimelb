@@ -1,6 +1,9 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Objective}{2}
-\contentsline {section}{\numberline {3}Technical Approach}{2}
-\contentsline {section}{\numberline {4}Time Table and Deliverables}{2}
-\contentsline {section}{\numberline {5}Literature Review}{3}
+\contentsline {section}{\numberline {3}Problem Definition}{2}
+\contentsline {section}{\numberline {4}Proposed Solution}{3}
+\contentsline {section}{\numberline {5}Technical Approach}{3}
+\contentsline {section}{\numberline {6}Time Table and Deliverables}{5}
+\contentsline {section}{\numberline {7}Expected Results}{5}
+\contentsline {section}{\numberline {8}Literature Review}{5}
