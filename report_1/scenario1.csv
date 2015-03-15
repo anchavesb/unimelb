@@ -1,0 +1,1001 @@
+id;eventname;hostname;traptime;i2;e2;h2;t2;formatline;fl2
+10980679;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-10 09:05:22";NULL;NULL;NULL;NULL;"1 0";NULL
+10980319;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-10 09:01:41";NULL;NULL;NULL;NULL;"1 0";NULL
+10980213;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 09:00:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10979210;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-10 08:49:30";NULL;NULL;NULL;NULL;"1 0";NULL
+10978939;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-10 08:46:59";NULL;NULL;NULL;NULL;"1 0";NULL
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978767;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:44:59";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978766;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:44:59";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978765;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:44:59";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978763;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:44:59";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978762;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:44:59";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978631;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:43:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978629;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:43:49";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978630;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:43:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978628;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:43:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978626;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:43:49";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978627;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:43:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10978667;alarmACmainsTrap;RC_EV_SCF2_SU_PDR_1;"2014-10-10 08:44:08";10978764;linkDown;AC_AL_SA30_SU_PDR_1;"2014-10-10 08:44:59";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10978663;alarmACmainsTrap;RC_EV_SCF2_SU_BVT_1;"2014-10-10 08:44:07";NULL;NULL;NULL;NULL;"1 0";NULL
+10978149;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-10 08:39:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10978183;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 08:39:39";NULL;NULL;NULL;NULL;"1 0";NULL
+10977690;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 08:34:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976792;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:25:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306233344"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976791;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:25:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306233344"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976790;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:25:48";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306233344"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976788;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:25:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306233344"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976789;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:25:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306233344"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976787;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:25:48";"1 0";"Link down on interface 306233344.  Admin state: $2.  Operational state: $3 "
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976513;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:24:34";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976512;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:24:34";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976510;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:24:34";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976511;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:24:34";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976509;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:24:34";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10976534;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-10 08:24:54";10976508;linkDown;AC_AL_SA30_CR_BVI_1;"2014-10-10 08:24:34";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10975959;alarmACmainsTrap;RC_EV_SCF2_GV_CAM_1;"2014-10-10 08:17:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10974811;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-10 08:04:19";NULL;NULL;NULL;NULL;"1 0";NULL
+10974306;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-10 07:58:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10973730;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-10 07:51:16";NULL;NULL;NULL;NULL;"1 0";NULL
+10973651;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-10 07:50:17";NULL;NULL;NULL;NULL;"1 0";NULL
+10973514;alarmACmainsTrap;RC_EV_SCF2_CR_MTS_1;"2014-10-10 07:48:44";NULL;NULL;NULL;NULL;"1 0";NULL
+10973228;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-10 07:45:13";NULL;NULL;NULL;NULL;"1 0";NULL
+10972842;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-10 07:40:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10972256;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 07:32:30";NULL;NULL;NULL;NULL;"1 0";NULL
+10972147;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-10 07:30:56";NULL;NULL;NULL;NULL;"1 0";NULL
+10972848;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-10 07:40:08";NULL;NULL;NULL;NULL;"1 0";NULL
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972374;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:33:33";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972373;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:33:33";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972372;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:33:33";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972371;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:33:33";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972370;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:33:33";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972369;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:33:33";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972281;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:32:36";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972280;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:32:36";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972279;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:32:36";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972277;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:32:36";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972276;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:32:36";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10972300;alarmACmainsTrap;RC_EV_SCF2_CU_SAT_1;"2014-10-10 07:32:49";10972278;linkDown;AC_AL_SA30_CU_SAT_1;"2014-10-10 07:32:36";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10972103;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-10 07:30:01";NULL;NULL;NULL;NULL;"1 0";NULL
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971958;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:28:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971957;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:28:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971956;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:28:08";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971955;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:28:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971953;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:28:08";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971954;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:28:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971885;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:27:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971883;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:27:08";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971884;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:27:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971882;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:27:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971881;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:27:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10971903;alarmACmainsTrap;RC_EV_SCF2_CU_TOP_1;"2014-10-10 07:27:26";10971880;linkDown;AC_AL_SA30_CU_TOP_1;"2014-10-10 07:27:08";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10971634;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 07:23:09";10971677;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 07:23:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10971634;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 07:23:09";10971676;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 07:23:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10971634;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 07:23:09";10971675;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 07:23:41";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10971634;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 07:23:09";10971673;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 07:23:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10971634;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 07:23:09";10971674;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 07:23:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10971634;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 07:23:09";10971672;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 07:23:41";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10971487;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-10 07:21:18";NULL;NULL;NULL;NULL;"1 0";NULL
+10971103;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-10 07:15:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10970925;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-10 07:12:52";NULL;NULL;NULL;NULL;"1 0";NULL
+10970335;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-10 07:04:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10970298;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 07:03:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10970160;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 07:01:22";NULL;NULL;NULL;NULL;"1 0";NULL
+10969986;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-10 06:58:28";NULL;NULL;NULL;NULL;"1 0";NULL
+10969778;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 06:54:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10969770;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-10 06:54:17";NULL;NULL;NULL;NULL;"1 0";NULL
+10969613;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-10 06:52:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10969572;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-10 06:52:26";NULL;NULL;NULL;NULL;"1 0";NULL
+10969313;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 06:48:47";NULL;NULL;NULL;NULL;"1 0";NULL
+10969176;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 06:47:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10969161;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 06:47:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10968995;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-10 06:44:37";NULL;NULL;NULL;NULL;"1 0";NULL
+10968935;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-10 06:43:28";NULL;NULL;NULL;NULL;"1 0";NULL
+10968870;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-10 06:42:11";NULL;NULL;NULL;NULL;"1 0";NULL
+10968752;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 06:40:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10968613;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-10 06:38:30";NULL;NULL;NULL;NULL;"1 0";NULL
+10968519;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 06:37:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10968370;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 06:35:32";NULL;NULL;NULL;NULL;"1 0";NULL
+10967971;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 06:28:26";NULL;NULL;NULL;NULL;"1 0";NULL
+10967937;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 06:28:04";10967923;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 06:27:35";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10967937;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 06:28:04";10967921;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 06:27:35";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10967937;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 06:28:04";10967920;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 06:27:35";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10967937;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 06:28:04";10967919;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 06:27:35";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10967937;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 06:28:04";10967922;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 06:27:35";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10967937;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 06:28:04";10967918;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-10 06:27:35";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10967510;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 06:21:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10966782;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 06:07:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10965111;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 05:37:29";NULL;NULL;NULL;NULL;"1 0";NULL
+10965040;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-10 05:35:42";NULL;NULL;NULL;NULL;"1 0";NULL
+10964863;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-10 05:32:01";NULL;NULL;NULL;NULL;"1 0";NULL
+10964356;alarmACmainsTrap;RC_DT_DP29_NR_BRB_1;"2014-10-10 05:22:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10964047;alarmACmainsTrap;RC_EV_SCF2_BL_NRS_1;"2014-10-10 05:17:31";NULL;NULL;NULL;NULL;"1 0";NULL
+10964019;alarmACmainsTrap;RC_EV_SCF2_CS_TLQ_1;"2014-10-10 05:17:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10963757;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-10 05:12:14";NULL;NULL;NULL;NULL;"1 0";NULL
+10963392;alarmACmainsTrap;RC_EV_SCF2_CU_FOM_1;"2014-10-10 05:06:52";NULL;NULL;NULL;NULL;"1 0";NULL
+10963386;alarmACmainsTrap;RC_EV_SCF2_CU_CHO_1;"2014-10-10 05:06:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10961438;alarmACmainsTrap;RC_EV_SCF2_BL_CLE_1;"2014-10-10 04:36:00";NULL;NULL;NULL;NULL;"1 0";NULL
+10960675;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 04:22:01";NULL;NULL;NULL;NULL;"1 0";NULL
+10960402;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 04:17:17";NULL;NULL;NULL;NULL;"1 0";NULL
+10960211;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 04:13:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10959885;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 04:07:59";NULL;NULL;NULL;NULL;"1 0";NULL
+10959863;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 04:07:32";NULL;NULL;NULL;NULL;"1 0";NULL
+10959206;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 03:57:09";NULL;NULL;NULL;NULL;"1 0";NULL
+10958725;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 03:49:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10958313;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 03:44:00";NULL;NULL;NULL;NULL;"1 0";NULL
+10957808;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 03:38:09";NULL;NULL;NULL;NULL;"1 0";NULL
+10957625;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 03:36:51";NULL;NULL;NULL;NULL;"1 0";NULL
+10957563;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 03:36:08";NULL;NULL;NULL;NULL;"1 0";NULL
+10957221;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 03:31:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10957137;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 03:29:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10956810;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 03:23:47";NULL;NULL;NULL;NULL;"1 0";NULL
+10956265;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 03:15:14";NULL;NULL;NULL;NULL;"1 0";NULL
+10956282;alarmACmainsTrap;RC_EV_SCF2_BL_TIQ_1;"2014-10-10 03:15:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10956235;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 03:14:39";NULL;NULL;NULL;NULL;"1 0";NULL
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10956036;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:11:58";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10956035;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:11:58";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10956033;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:11:58";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10956034;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:11:58";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10956031;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:11:58";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10955968;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:10:59";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10955966;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:10:59";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10955967;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:10:59";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10955965;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:10:59";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10955964;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:10:59";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10955963;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:10:59";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10955991;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-10 03:11:22";10956032;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-10 03:11:58";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10955988;alarmACmainsTrap;RC_EV_SCF2_BL_ELP_1;"2014-10-10 03:11:20";NULL;NULL;NULL;NULL;"1 0";NULL
+10955981;alarmACmainsTrap;RC_EV_SCF2_CS_TLQ_1;"2014-10-10 03:11:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10955985;alarmACmainsTrap;RC_EV_SCF2_BL_HAT_1;"2014-10-10 03:11:19";NULL;NULL;NULL;NULL;"1 0";NULL
+10955561;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 03:04:02";NULL;NULL;NULL;NULL;"1 0";NULL
+10955454;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 03:02:29";NULL;NULL;NULL;NULL;"1 0";NULL
+10955180;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 02:58:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10954832;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 02:52:14";NULL;NULL;NULL;NULL;"1 0";NULL
+10954600;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 02:49:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10954435;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 02:46:53";NULL;NULL;NULL;NULL;"1 0";NULL
+10954171;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 02:42:41";NULL;NULL;NULL;NULL;"1 0";NULL
+10954038;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 02:39:59";NULL;NULL;NULL;NULL;"1 0";NULL
+10953738;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 02:34:57";NULL;NULL;NULL;NULL;"1 0";NULL
+10953543;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 02:32:51";NULL;NULL;NULL;NULL;"1 0";NULL
+10953170;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 02:28:42";NULL;NULL;NULL;NULL;"1 0";NULL
+10953085;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 02:27:33";NULL;NULL;NULL;NULL;"1 0";NULL
+10952496;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 02:19:14";NULL;NULL;NULL;NULL;"1 0";NULL
+10952486;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 02:19:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10952328;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 02:17:29";NULL;NULL;NULL;NULL;"1 0";NULL
+10951941;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 02:12:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10951790;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 02:10:20";NULL;NULL;NULL;NULL;"1 0";NULL
+10951779;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 02:10:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951834;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951833;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951832;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951831;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951829;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:10:45";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951830;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951728;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951727;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951726;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951724;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951725;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951762;alarmACmainsTrap;RC_EV_SCF2_MG_CER_1;"2014-10-10 02:09:58";10951723;linkDown;AC_AL_SA30_MG_CER_1;"2014-10-10 02:09:39";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951825;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951826;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951824;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951823;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951821;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:10:45";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951822;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:10:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951722;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951721;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951719;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951720;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951718;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:09:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951759;alarmACmainsTrap;RC_EV_SCF2_MG_PED_1;"2014-10-10 02:09:57";10951717;linkDown;AC_AL_SA30_MG_PED_1;"2014-10-10 02:09:39";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951813;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951811;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951810;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951808;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:43";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951809;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951812;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951777;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951776;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951775;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:08";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951773;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951772;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:08";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951707;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951708;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951706;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951705;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951704;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951703;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:09:38";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10951751;alarmACmainsTrap;RC_EV_SCF2_MG_EPI_1;"2014-10-10 02:09:51";10951774;linkDown;AC_AL_SA30_MG_EPI_1;"2014-10-10 02:10:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951819;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951817;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951818;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951816;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951815;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:10:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951814;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:10:43";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951714;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951712;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951713;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951711;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951710;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:09:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10951747;alarmACmainsTrap;RC_EV_SCF2_MG_CCD_1;"2014-10-10 02:09:51";10951709;linkDown;AC_AL_SA30_MG_CCD_1;"2014-10-10 02:09:38";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10951273;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 02:04:19";NULL;NULL;NULL;NULL;"1 0";NULL
+10951213;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 02:03:35";NULL;NULL;NULL;NULL;"1 0";NULL
+10950800;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 01:58:19";NULL;NULL;NULL;NULL;"1 0";NULL
+10950782;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 01:58:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10950615;alarmACmainsTrap;RC_EV_SCF2_MT_GML_1;"2014-10-10 01:55:57";NULL;NULL;NULL;NULL;"1 0";NULL
+10950361;alarmACmainsTrap;RC_EV_SCF2_BL_ARJ_1;"2014-10-10 01:52:22";NULL;NULL;NULL;NULL;"1 0";NULL
+10950256;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-10 01:50:35";NULL;NULL;NULL;NULL;"1 0";NULL
+10950244;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 01:50:19";NULL;NULL;NULL;NULL;"1 0";NULL
+10950228;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 01:50:04";NULL;NULL;NULL;NULL;"1 0";NULL
+10949681;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 01:44:54";NULL;NULL;NULL;NULL;"1 0";NULL
+10949592;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 01:44:22";NULL;NULL;NULL;NULL;"1 0";NULL
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949570;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:44:10";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949569;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:44:10";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949568;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:44:10";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949567;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:44:10";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949566;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:44:10";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949565;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:44:10";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949513;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:43:11";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949514;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:43:11";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949512;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:43:11";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306184192"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949511;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:43:11";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949509;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:43:11";"1 0";"Link down on interface 306184192.  Admin state: $2.  Operational state: $3 "
+10949525;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-10 01:43:26";10949510;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-10 01:43:11";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10949253;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 01:38:47";NULL;NULL;NULL;NULL;"1 0";NULL
+10949024;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 01:34:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10947903;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 01:18:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947910;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947909;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947907;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947906;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947905;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:51";"1 0";"Link down on interface 306282496.  Admin state: $2.  Operational state: $3 "
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947856;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947857;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947855;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:19";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947853;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947854;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947852;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:19";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10947874;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-10 01:18:28";10947908;linkDown;AC_AL_SA30_MT_SCG_1;"2014-10-10 01:18:51";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306282496"
+10947080;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-10 01:09:46";NULL;NULL;NULL;NULL;"1 0";NULL
+10946849;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-10 01:06:06";NULL;NULL;NULL;NULL;"1 0";NULL
+10946702;alarmACmainsTrap;RC_EV_SCF2_GJ_ALB_1;"2014-10-10 01:03:38";NULL;NULL;NULL;NULL;"1 0";NULL
+10945982;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-10 00:52:02";NULL;NULL;NULL;NULL;"1 0";NULL
+10945876;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-10 00:50:04";NULL;NULL;NULL;NULL;"1 0";NULL
+10945051;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 00:38:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10944205;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 00:27:28";NULL;NULL;NULL;NULL;"1 0";NULL
+10943586;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 00:18:36";NULL;NULL;NULL;NULL;"1 0";NULL
+10943136;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-10 00:11:55";NULL;NULL;NULL;NULL;"1 0";NULL
+10943012;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-10 00:09:43";NULL;NULL;NULL;NULL;"1 0";NULL
+10942739;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-10 00:05:42";NULL;NULL;NULL;NULL;"1 0";NULL
+10942225;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 23:59:04";NULL;NULL;NULL;NULL;"1 0";NULL
+10941875;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 23:52:28";NULL;NULL;NULL;NULL;"1 0";NULL
+10941707;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 23:49:33";NULL;NULL;NULL;NULL;"1 0";NULL
+10941960;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-09 23:54:09";NULL;NULL;NULL;NULL;"1 0";NULL
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941638;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:48:35";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941637;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:48:35";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941635;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:48:35";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941636;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:48:35";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306282496"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941634;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:48:35";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941633;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:48:35";"1 0";"Link down on interface 306282496.  Admin state: $2.  Operational state: $3 "
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941548;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:47:54";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941546;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:47:54";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306315264"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941547;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:47:54";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941545;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:47:54";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941544;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:47:54";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10941574;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:48:04";10941543;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:47:54";"1 0";"Link down on interface 306315264.  Admin state: $2.  Operational state: $3 "
+10941507;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 23:47:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10940879;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:36:11";10940868;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:36:00";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10940879;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:36:11";10940867;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:36:00";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10940879;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:36:11";10940866;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:36:00";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306282496"
+10940879;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:36:11";10940864;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:36:00";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10940879;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:36:11";10940865;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:36:00";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10940879;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 23:36:11";10940863;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 23:36:00";"1 0";"Link down on interface 306282496.  Admin state: $2.  Operational state: $3 "
+10940780;alarmACmainsTrap;RC_EV_SCF2_CA_SLI_1;"2014-10-09 23:34:56";NULL;NULL;NULL;NULL;"1 0";NULL
+10940696;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 23:33:52";NULL;NULL;NULL;NULL;"1 0";NULL
+10940256;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 23:27:58";NULL;NULL;NULL;NULL;"1 0";NULL
+10940181;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 23:26:35";NULL;NULL;NULL;NULL;"1 0";NULL
+10939693;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 23:19:03";NULL;NULL;NULL;NULL;"1 0";NULL
+10939645;alarmACmainsTrap;RC_EV_SCF2_CR_MTS_1;"2014-10-09 23:18:20";NULL;NULL;NULL;NULL;"1 0";NULL
+10939578;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 23:16:56";NULL;NULL;NULL;NULL;"1 0";NULL
+10939368;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 23:10:33";10939333;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10939368;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 23:10:33";10939332;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10939368;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 23:10:33";10939331;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10939368;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 23:10:33";10939330;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10939368;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 23:10:33";10939329;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 23:10:16";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10939368;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 23:10:33";10939334;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939424;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:11:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939423;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:11:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939421;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:11:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939422;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:11:02";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306315264"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939420;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:11:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939419;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:11:02";"1 0";"Link down on interface 306315264.  Admin state: $2.  Operational state: $3 "
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939340;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939338;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939339;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939337;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939336;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:10:16";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10939360;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 23:10:27";10939335;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 23:10:16";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10938596;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 23:01:55";NULL;NULL;NULL;NULL;"1 0";NULL
+10937899;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 22:54:07";NULL;NULL;NULL;NULL;"1 0";NULL
+10937521;alarmACmainsTrap;RC_EV_SCF2_CR_MOM_1;"2014-10-09 22:50:19";NULL;NULL;NULL;NULL;"1 0";NULL
+10937519;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-09 22:50:17";NULL;NULL;NULL;NULL;"1 0";NULL
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937174;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:46:24";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937173;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:46:24";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937172;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:46:24";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937170;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:46:24";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937169;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:46:24";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937171;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:46:24";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937046;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:45:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937045;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:45:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937044;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:45:23";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306184192"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937043;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:45:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937042;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:45:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10937090;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 22:45:38";10937041;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 22:45:23";"1 0";"Link down on interface 306184192.  Admin state: $2.  Operational state: $3 "
+10937063;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 22:45:29";NULL;NULL;NULL;NULL;"1 0";NULL
+10936960;alarmACmainsTrap;RC_EV_SCF2_CR_MOM_1;"2014-10-09 22:44:32";NULL;NULL;NULL;NULL;"1 0";NULL
+10936843;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 22:43:20";NULL;NULL;NULL;NULL;"1 0";NULL
+10936719;alarmACmainsTrap;RC_EV_SCF2_MG_ZPY_1;"2014-10-09 22:42:09";NULL;NULL;NULL;NULL;"1 0";NULL
+10936473;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 22:39:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10936342;alarmACmainsTrap;RC_EV_SCF2_CR_MOM_1;"2014-10-09 22:38:13";NULL;NULL;NULL;NULL;"1 0";NULL
+10936326;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 22:38:01";NULL;NULL;NULL;NULL;"1 0";NULL
+10936140;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 22:36:20";NULL;NULL;NULL;NULL;"1 0";NULL
+10935777;alarmACmainsTrap;RC_EV_SCF2_CR_MOM_1;"2014-10-09 22:33:01";NULL;NULL;NULL;NULL;"1 0";NULL
+10935744;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-09 22:32:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10935574;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 22:30:47";NULL;NULL;NULL;NULL;"1 0";NULL
+10934888;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 22:23:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10934885;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 22:23:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10934756;alarmACmainsTrap;RC_EV_SCF2_CR_MOM_1;"2014-10-09 22:22:36";NULL;NULL;NULL;NULL;"1 0";NULL
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934248;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:18:13";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934249;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:18:13";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934247;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:18:13";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302071808"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934246;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:18:13";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934245;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:18:13";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934244;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:18:13";"1 0";"Link down on interface 302071808.  Admin state: $2.  Operational state: $3 "
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934156;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:17:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306298880"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934157;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:17:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306298880"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934155;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:17:49";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306298880"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934154;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:17:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306298880"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934153;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:17:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306298880"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934152;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:17:49";"1 0";"Link down on interface 306298880.  Admin state: $2.  Operational state: $3 "
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934031;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:16:44";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934030;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:16:44";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934029;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:16:44";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934028;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:16:44";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934026;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:16:44";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10934091;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:17:14";10934027;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:16:44";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933394;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306298880"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933393;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306298880"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933392;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:49";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306298880"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933390;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306298880"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933391;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306298880"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933389;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:49";"1 0";"Link down on interface 306298880.  Admin state: $2.  Operational state: $3 "
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933348;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933347;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933346;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:19";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933345;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933344;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10933288;alarmACmainsTrap;RC_EV_SCF2_MT_FTO_1;"2014-10-09 22:10:57";10933343;linkDown;AC_AL_SA30_MT_FTO_1;"2014-10-09 22:11:19";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10933029;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 22:09:09";10933087;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 22:09:30";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10933029;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 22:09:09";10933086;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 22:09:30";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10933029;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 22:09:09";10933084;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 22:09:30";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10933029;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 22:09:09";10933083;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 22:09:30";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10933029;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 22:09:09";10933082;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 22:09:30";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10933029;alarmACmainsTrap;RC_EV_SCF2_MT_PLL_1;"2014-10-09 22:09:09";10933085;linkDown;AC_AL_SA30_MT_PLL_1;"2014-10-09 22:09:30";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10933021;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 22:09:06";10932989;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 22:08:54";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10933021;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 22:09:06";10932987;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 22:08:54";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306315264"
+10933021;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 22:09:06";10932988;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 22:08:54";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10933021;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 22:09:06";10932986;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 22:08:54";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10933021;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 22:09:06";10932985;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 22:08:54";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10933021;alarmACmainsTrap;RC_EV_SCF2_MT_PRI_1;"2014-10-09 22:09:06";10932984;linkDown;AC_AL_SA30_MT_PRI_1;"2014-10-09 22:08:54";"1 0";"Link down on interface 306315264.  Admin state: $2.  Operational state: $3 "
+10931656;alarmACmainsTrap;RC_EV_SCF2_CR_MTS_1;"2014-10-09 21:55:55";NULL;NULL;NULL;NULL;"1 0";NULL
+10931507;alarmACmainsTrap;RC_EV_SCF2_MG_CVL_1;"2014-10-09 21:54:30";NULL;NULL;NULL;NULL;"1 0";NULL
+10929960;alarmACmainsTrap;RC_EV_SCF2_MG_CVL_1;"2014-10-09 21:37:43";NULL;NULL;NULL;NULL;"1 0";NULL
+10929382;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 21:30:51";NULL;NULL;NULL;NULL;"1 0";NULL
+10929292;alarmACmainsTrap;RC_EV_SCF2_BL_CDB_1;"2014-10-09 21:29:36";NULL;NULL;NULL;NULL;"1 0";NULL
+10928954;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 21:25:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10928615;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-09 21:21:33";NULL;NULL;NULL;NULL;"1 0";NULL
+10928389;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 21:18:58";NULL;NULL;NULL;NULL;"1 0";NULL
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10928097;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:15:56";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10928095;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:15:56";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10928096;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:15:56";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10928094;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:15:56";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10928093;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:15:56";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10928092;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:15:56";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10927996;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:14:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10927997;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:14:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10927994;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:14:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10927995;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:14:41";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306184192"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10927993;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:14:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10928013;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 21:14:56";10927992;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 21:14:41";"1 0";"Link down on interface 306184192.  Admin state: $2.  Operational state: $3 "
+10927921;alarmACmainsTrap;RC_EV_SCF2_MG_CVL_1;"2014-10-09 21:13:55";NULL;NULL;NULL;NULL;"1 0";NULL
+10927906;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 21:13:46";NULL;NULL;NULL;NULL;"1 0";NULL
+10927247;alarmACmainsTrap;RC_EV_SCF2_BL_CDB_1;"2014-10-09 21:06:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10926692;alarmACmainsTrap;RC_EV_SCF2_MT_DOR_1;"2014-10-09 20:59:33";NULL;NULL;NULL;NULL;"1 0";NULL
+10926508;alarmACmainsTrap;RC_EV_SCF2_BL_CDB_1;"2014-10-09 20:57:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926761;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 21:00:05";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926759;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 21:00:05";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926760;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 21:00:05";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926758;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 21:00:05";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926757;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 21:00:05";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926673;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 20:59:18";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306331648"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926672;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 20:59:18";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306331648"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926670;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 20:59:18";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306331648"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926671;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 20:59:18";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306331648"
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926669;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 20:59:18";"1 0";"Link down on interface 306331648.  Admin state: $2.  Operational state: $3 "
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926756;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 21:00:05";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10926689;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 20:59:33";10926674;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 20:59:18";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306331648"
+10926081;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 20:53:04";NULL;NULL;NULL;NULL;"1 0";NULL
+10925767;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 20:49:21";NULL;NULL;NULL;NULL;"1 0";NULL
+10924859;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 20:39:24";NULL;NULL;NULL;NULL;"1 0";NULL
+10924793;alarmACmainsTrap;RC_EV_SCF2_MT_GML_1;"2014-10-09 20:38:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924848;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:39:21";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924847;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:39:21";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924846;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:39:21";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306364416"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924843;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:39:21";"1 0";"Link down on interface 306364416.  Admin state: $2.  Operational state: $3 "
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924757;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:38:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306233344"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924756;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:38:23";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306233344"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924755;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:38:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306233344"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924754;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:38:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306233344"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924845;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:39:21";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924844;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:39:21";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924758;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:38:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306233344"
+10924789;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:38:38";10924753;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:38:23";"1 0";"Link down on interface 306233344.  Admin state: $2.  Operational state: $3 "
+10924605;alarmACmainsTrap;RC_EV_SCF2_BL_CDB_1;"2014-10-09 20:37:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10924582;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 20:37:01";NULL;NULL;NULL;NULL;"1 0";NULL
+10924206;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:32:58";10924165;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:32:44";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10924206;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:32:58";10924166;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:32:44";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10924206;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:32:58";10924164;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:32:44";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306364416"
+10924206;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:32:58";10924163;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:32:44";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10924206;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:32:58";10924162;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:32:44";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10924206;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:32:58";10924161;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:32:44";"1 0";"Link down on interface 306364416.  Admin state: $2.  Operational state: $3 "
+10924194;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 20:32:54";NULL;NULL;NULL;NULL;"1 0";NULL
+10924073;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 20:31:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10923534;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 20:24:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10923460;alarmACmainsTrap;RC_EV_SCF2_BL_CDB_1;"2014-10-09 20:23:47";NULL;NULL;NULL;NULL;"1 0";NULL
+10923352;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:22:55";10923327;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:22:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10923352;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:22:55";10923325;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:22:39";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306364416"
+10923352;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:22:55";10923324;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:22:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10923352;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:22:55";10923322;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:22:39";"1 0";"Link down on interface 306364416.  Admin state: $2.  Operational state: $3 "
+10923352;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:22:55";10923323;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:22:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10923352;alarmACmainsTrap;RC_EV_SCF2_MT_ACA_1;"2014-10-09 20:22:55";10923326;linkDown;AC_AL_SA30_MT_ACA_1;"2014-10-09 20:22:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306364416"
+10922735;alarmACmainsTrap;RC_EV_SCF2_BL_CDB_1;"2014-10-09 20:15:52";NULL;NULL;NULL;NULL;"1 0";NULL
+10922727;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 20:15:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922757;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:16:03";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922756;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:16:03";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922755;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:16:03";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922753;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:16:03";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922752;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:16:03";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922754;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:16:03";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922605;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:14:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922606;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:14:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922604;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:14:51";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922603;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:14:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922602;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:14:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10922683;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 20:15:14";10922601;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 20:14:51";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10921907;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 20:06:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10921884;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 20:06:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10921258;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 19:59:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10920884;alarmACmainsTrap;RC_EV_SCF2_BL_TIQ_1;"2014-10-09 19:56:18";NULL;NULL;NULL;NULL;"1 0";NULL
+10920654;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 19:53:19";NULL;NULL;NULL;NULL;"1 0";NULL
+10920211;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 19:48:03";NULL;NULL;NULL;NULL;"1 0";NULL
+10919821;alarmACmainsTrap;RC_EV_SCF2_BL_HAT_1;"2014-10-09 19:44:52";NULL;NULL;NULL;NULL;"1 0";NULL
+10919814;alarmACmainsTrap;RC_EV_SCF2_CS_PTS_1;"2014-10-09 19:44:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10919812;alarmACmainsTrap;RC_EV_SCF2_BL_ARE_1;"2014-10-09 19:44:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10919810;alarmACmainsTrap;RC_EV_SCF2_BL_NRS_1;"2014-10-09 19:44:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10919804;alarmACmainsTrap;RC_EV_SCF2_BL_BLB_1;"2014-10-09 19:44:46";NULL;NULL;NULL;NULL;"1 0";NULL
+10919801;alarmACmainsTrap;RC_EV_SCF2_BL_ELP_1;"2014-10-09 19:44:46";NULL;NULL;NULL;NULL;"1 0";NULL
+10919798;alarmACmainsTrap;RC_EV_SCF2_BL_RVJ_1;"2014-10-09 19:44:45";NULL;NULL;NULL;NULL;"1 0";NULL
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919883;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:45:26";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919882;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:45:26";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919880;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:45:26";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919879;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:45:26";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919878;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:45:26";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919881;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:45:26";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919724;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:44:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919723;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:44:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919722;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:44:23";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919721;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:44:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919719;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:44:23";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10919795;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 19:44:44";10919720;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 19:44:23";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919910;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:45:27";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919911;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:45:27";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919909;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:45:27";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919908;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:45:27";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919906;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:45:27";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919907;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:45:27";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919734;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:44:24";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919732;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:44:24";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919733;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:44:24";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919731;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:44:24";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919730;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:44:24";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10919784;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 19:44:39";10919729;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 19:44:24";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10919777;alarmACmainsTrap;RC_EV_SCF2_CS_TLQ_1;"2014-10-09 19:44:38";NULL;NULL;NULL;NULL;"1 0";NULL
+10919580;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 19:42:16";NULL;NULL;NULL;NULL;"1 0";NULL
+10918870;alarmACmainsTrap;RC_EV_SCF2_BL_CDB_1;"2014-10-09 19:34:16";NULL;NULL;NULL;NULL;"1 0";NULL
+10918813;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 19:33:38";NULL;NULL;NULL;NULL;"1 0";NULL
+10918255;alarmACmainsTrap;RC_EV_SCF2_BL_CDB_1;"2014-10-09 19:26:33";NULL;NULL;NULL;NULL;"1 0";NULL
+10918238;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 19:26:21";NULL;NULL;NULL;NULL;"1 0";NULL
+10917406;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 19:14:43";NULL;NULL;NULL;NULL;"1 0";NULL
+10916063;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 18:57:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10915637;alarmACmainsTrap;RC_EV_SCF2_MG_REO_1;"2014-10-09 18:52:50";NULL;NULL;NULL;NULL;"1 0";NULL
+10915537;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 18:51:37";NULL;NULL;NULL;NULL;"1 0";NULL
+10915428;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 18:50:39";NULL;NULL;NULL;NULL;"1 0";NULL
+10914985;alarmACmainsTrap;RC_EV_SCF2_MG_REO_1;"2014-10-09 18:45:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10914950;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 18:44:58";10914935;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 18:44:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10914950;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 18:44:58";10914934;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 18:44:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10914950;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 18:44:58";10914932;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 18:44:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10914950;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 18:44:58";10914933;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 18:44:45";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306184192"
+10914950;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 18:44:58";10914931;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 18:44:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10914950;alarmACmainsTrap;RC_EV_SCF2_BL_TBN_1;"2014-10-09 18:44:58";10914930;linkDown;AC_AL_SA30_BL_TBN_1;"2014-10-09 18:44:45";"1 0";"Link down on interface 306184192.  Admin state: $2.  Operational state: $3 "
+10914633;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 18:41:43";NULL;NULL;NULL;NULL;"1 0";NULL
+10914124;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 18:34:39";10914089;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 18:34:25";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10914124;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 18:34:39";10914088;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 18:34:25";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10914124;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 18:34:39";10914087;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 18:34:25";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10914124;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 18:34:39";10914086;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 18:34:25";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10914124;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 18:34:39";10914084;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 18:34:25";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10914124;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 18:34:39";10914085;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 18:34:25";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10912825;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 18:19:24";NULL;NULL;NULL;NULL;"1 0";NULL
+10912429;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 18:15:13";NULL;NULL;NULL;NULL;"1 0";NULL
+10911949;alarmACmainsTrap;RC_EV_SCF2_BL_TAL_1;"2014-10-09 18:09:30";NULL;NULL;NULL;NULL;"1 0";NULL
+10911322;alarmACmainsTrap;RC_EV_SCF2_MG_CVL_1;"2014-10-09 18:02:36";NULL;NULL;NULL;NULL;"1 0";NULL
+10911254;alarmACmainsTrap;RC_EV_SCF2_CR_MOM_1;"2014-10-09 18:01:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10911231;alarmACmainsTrap;RC_EV_SCF2_CR_MTS_1;"2014-10-09 18:01:14";NULL;NULL;NULL;NULL;"1 0";NULL
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910855;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:57:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910853;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:57:07";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302071808"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910854;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:57:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910852;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:57:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910850;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:57:07";"1 0";"Link down on interface 302071808.  Admin state: $2.  Operational state: $3 "
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910851;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:57:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910816;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:56:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910817;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:56:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910814;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:56:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910815;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:56:38";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910813;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:56:38";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10910833;alarmACmainsTrap;RC_EV_SCF2_MT_PTG_1;"2014-10-09 17:56:51";10910812;linkDown;AC_AL_SA30_MT_PTG_1;"2014-10-09 17:56:38";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10910311;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 17:50:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10909765;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 17:43:30";NULL;NULL;NULL;NULL;"1 0";NULL
+10909375;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 17:38:21";NULL;NULL;NULL;NULL;"1 0";NULL
+10908907;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 17:33:10";NULL;NULL;NULL;NULL;"1 0";NULL
+10908876;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 17:32:59";NULL;NULL;NULL;NULL;"1 0";NULL
+10908726;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 17:31:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10908373;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 17:27:03";NULL;NULL;NULL;NULL;"1 0";NULL
+10907898;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 17:21:31";NULL;NULL;NULL;NULL;"1 0";NULL
+10907816;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 17:20:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10907654;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 17:18:18";NULL;NULL;NULL;NULL;"1 0";NULL
+10906923;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 17:10:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10906335;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 17:04:33";NULL;NULL;NULL;NULL;"1 0";NULL
+10905994;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 16:59:18";NULL;NULL;NULL;NULL;"1 0";NULL
+10903955;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 16:37:01";NULL;NULL;NULL;NULL;"1 0";NULL
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902859;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902858;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902856;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902857;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902855;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902854;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:25:04";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902745;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902743;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902744;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902742;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902741;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10902781;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:24:17";10902740;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:24:02";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902865;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902864;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902863;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302071808"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902862;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902860;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:25:04";"1 0";"Link down on interface 302071808.  Admin state: $2.  Operational state: $3 "
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902861;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:25:04";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302071808"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902750;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902751;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902749;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902748;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902747;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:24:02";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10902777;alarmACmainsTrap;RC_EV_SCF2_CR_CHM_1;"2014-10-09 16:24:16";10902746;linkDown;AC_AL_SA30_CR_CHM_1;"2014-10-09 16:24:02";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10902623;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 16:22:56";NULL;NULL;NULL;NULL;"1 0";NULL
+10902682;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 16:23:35";NULL;NULL;NULL;NULL;"1 0";NULL
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901912;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:16:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901911;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:16:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901910;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:16:41";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901909;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:16:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901908;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:16:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901907;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:16:41";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901815;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:15:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901814;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:15:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901812;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:15:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901813;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:15:45";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901811;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:15:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10901828;alarmACmainsTrap;RC_EV_SCF2_CR_TUC_1;"2014-10-09 16:15:55";10901810;linkDown;AC_AL_SA30_CR_TUC_1;"2014-10-09 16:15:45";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10901481;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 16:12:31";NULL;NULL;NULL;NULL;"1 0";NULL
+10900915;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 16:06:33";NULL;NULL;NULL;NULL;"1 0";NULL
+10900872;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 16:06:04";10900886;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 16:06:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10900872;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 16:06:04";10900884;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 16:06:07";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10900872;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 16:06:04";10900885;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 16:06:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10900872;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 16:06:04";10900883;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 16:06:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10900872;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 16:06:04";10900882;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 16:06:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10900872;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 16:06:04";10900881;linkDown;AC_AL_SA30_BL_REG_1;"2014-10-09 16:06:07";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10899445;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 15:50:44";NULL;NULL;NULL;NULL;"1 0";NULL
+10897061;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 15:24:44";NULL;NULL;NULL;NULL;"1 0";NULL
+10896860;alarmACmainsTrap;RC_EV_SCF2_CR_BVI_1;"2014-10-09 15:22:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10896600;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 15:19:28";NULL;NULL;NULL;NULL;"1 0";NULL
+10896068;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 15:13:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10895583;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 15:08:11";NULL;NULL;NULL;NULL;"1 0";NULL
+10895127;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 15:03:16";NULL;NULL;NULL;NULL;"1 0";NULL
+10894759;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 14:58:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10894527;alarmACmainsTrap;RC_EV_SCF2_BL_ARJ_1;"2014-10-09 14:56:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10893406;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 14:44:17";NULL;NULL;NULL;NULL;"1 0";NULL
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892480;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:33:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892481;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:33:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892479;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:33:43";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892478;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:33:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892476;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:33:43";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892477;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:33:43";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892377;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:32:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892376;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:32:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892375;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:32:45";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892373;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:32:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892372;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:32:45";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10892394;alarmACmainsTrap;RC_EV_SCF2_SU_RBL_1;"2014-10-09 14:32:55";10892374;linkDown;AC_AL_SA30_SU_RBL_1;"2014-10-09 14:32:45";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10892339;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 14:32:18";NULL;NULL;NULL;NULL;"1 0";NULL
+10892219;alarmACmainsTrap;RC_EV_SCF2_GJ_URI_1;"2014-10-09 14:31:01";NULL;NULL;NULL;NULL;"1 0";NULL
+10891902;alarmACmainsTrap;RC_EV_SCF2_BL_REG_1;"2014-10-09 14:27:39";NULL;NULL;NULL;NULL;"1 0";NULL
+10891678;alarmACmainsTrap;RC_EV_SCF2_CU_MCT_1;"2014-10-09 14:24:51";NULL;NULL;NULL;NULL;"1 0";NULL
+10891635;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 14:24:24";NULL;NULL;NULL;NULL;"1 0";NULL
+10891190;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 14:19:07";NULL;NULL;NULL;NULL;"1 0";NULL
+10890698;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 14:14:02";NULL;NULL;NULL;NULL;"1 0";NULL
+10890185;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 14:08:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10889938;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 14:06:41";NULL;NULL;NULL;NULL;"1 0";NULL
+10889567;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 14:02:41";NULL;NULL;NULL;NULL;"1 0";NULL
+10889084;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 13:57:28";NULL;NULL;NULL;NULL;"1 0";NULL
+10888368;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 13:48:54";NULL;NULL;NULL;NULL;"1 0";NULL
+10887690;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 13:41:58";NULL;NULL;NULL;NULL;"1 0";NULL
+10887525;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 13:39:39";NULL;NULL;NULL;NULL;"1 0";NULL
+10887117;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 13:35:04";NULL;NULL;NULL;NULL;"1 0";NULL
+10886822;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 13:32:06";NULL;NULL;NULL;NULL;"1 0";NULL
+10886301;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 13:26:09";NULL;NULL;NULL;NULL;"1 0";NULL
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885971;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:22:42";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885970;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:22:42";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885968;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:22:42";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885969;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:22:42";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885967;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:22:42";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885966;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:22:42";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885838;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:21:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885837;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:21:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885836;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:21:49";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885835;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:21:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885834;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:21:49";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10885846;alarmACmainsTrap;RC_EV_SCF2_MG_ZON_1;"2014-10-09 13:21:59";10885833;linkDown;AC_AL_SA30_MG_ZON_1;"2014-10-09 13:21:49";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10885700;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 13:19:57";NULL;NULL;NULL;NULL;"1 0";NULL
+10884949;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 13:10:54";NULL;NULL;NULL;NULL;"1 0";NULL
+10884162;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 13:02:11";NULL;NULL;NULL;NULL;"1 0";NULL
+10883458;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 12:54:31";NULL;NULL;NULL;NULL;"1 0";NULL
+10882923;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 12:47:47";NULL;NULL;NULL;NULL;"1 0";NULL
+10882882;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 12:46:37";NULL;NULL;NULL;NULL;"1 0";NULL
+10881760;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 12:32:38";NULL;NULL;NULL;NULL;"1 0";NULL
+10881537;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 12:30:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10881265;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 12:27:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10881158;alarmACmainsTrap;RC_EV_SCF2_BL_VIL_1;"2014-10-09 12:25:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10880571;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 12:19:38";NULL;NULL;NULL;NULL;"1 0";NULL
+10880574;alarmACmainsTrap;RC_EV_SCF2_MG_REO_1;"2014-10-09 12:19:39";NULL;NULL;NULL;NULL;"1 0";NULL
+10880033;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 12:14:26";NULL;NULL;NULL;NULL;"1 0";NULL
+10879659;alarmACmainsTrap;RC_EV_SCF2_BL_ARR_1;"2014-10-09 12:11:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10879242;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 12:07:02";NULL;NULL;NULL;NULL;"1 0";NULL
+10878521;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 11:59:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10878378;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 11:58:16";NULL;NULL;NULL;NULL;"1 0";NULL
+10878255;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 11:57:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10878157;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 11:56:58";NULL;NULL;NULL;NULL;"1 0";NULL
+10877706;alarmACmainsTrap;RC_EV_SCF2_BL_ARR_1;"2014-10-09 11:53:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10877699;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 11:53:09";NULL;NULL;NULL;NULL;"1 0";NULL
+10877690;alarmACmainsTrap;RC_EV_SCF2_BL_MAH_1;"2014-10-09 11:53:06";NULL;NULL;NULL;NULL;"1 0";NULL
+10876964;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 11:45:41";NULL;NULL;NULL;NULL;"1 0";NULL
+10876548;alarmACmainsTrap;RC_EV_SCF2_MT_SCG_1;"2014-10-09 11:41:07";NULL;NULL;NULL;NULL;"1 0";NULL
+10876234;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 11:38:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10875854;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 11:34:30";NULL;NULL;NULL;NULL;"1 0";NULL
+10875849;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 11:34:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10875269;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 11:28:04";NULL;NULL;NULL;NULL;"1 0";NULL
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875237;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:27:52";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875236;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:27:52";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306184192"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875235;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:27:52";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875233;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:27:52";"1 0";"Link down on interface 306184192.  Admin state: $2.  Operational state: $3 "
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875234;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:27:52";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875107;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:26:50";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875106;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:26:50";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875105;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:26:50";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875104;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:26:50";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875103;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:26:50";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875102;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:26:50";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10875137;alarmACmainsTrap;RC_EV_SCF2_CU_AGD_1;"2014-10-09 11:27:02";10875238;linkDown;AC_AL_SA30_CU_AGD_1;"2014-10-09 11:27:52";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10874816;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 11:24:00";NULL;NULL;NULL;NULL;"1 0";NULL
+10874506;alarmACmainsTrap;RC_EV_SCF2_CU_GTZ_1;"2014-10-09 11:20:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10874269;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 11:18:13";NULL;NULL;NULL;NULL;"1 0";NULL
+10874067;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 11:16:39";NULL;NULL;NULL;NULL;"1 0";NULL
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873723;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:13:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873722;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:13:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873720;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:13:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873721;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:13:08";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873719;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:13:08";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873718;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:13:08";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873609;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:12:09";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873608;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:12:09";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873607;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:12:09";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873606;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:12:09";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873605;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:12:09";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10873634;alarmACmainsTrap;RC_EV_SCF2_GJ_BRR_1;"2014-10-09 11:12:25";10873604;linkDown;AC_AL_SA30_GJ_BRR_1;"2014-10-09 11:12:09";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10873611;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 11:12:13";NULL;NULL;NULL;NULL;"1 0";NULL
+10873632;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 11:12:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10873057;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 11:06:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10873015;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 11:05:57";NULL;NULL;NULL;NULL;"1 0";NULL
+10872985;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 11:05:31";NULL;NULL;NULL;NULL;"1 0";NULL
+10872677;alarmACmainsTrap;RC_EV_SCF2_BL_CAT_1;"2014-10-09 11:02:41";NULL;NULL;NULL;NULL;"1 0";NULL
+10872322;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 10:58:57";NULL;NULL;NULL;NULL;"1 0";NULL
+10871472;alarmACmainsTrap;RC_EV_SCF2_SU_TVJ_1;"2014-10-09 10:49:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10870852;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 10:42:29";NULL;NULL;NULL;NULL;"1 0";NULL
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870791;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:41:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870792;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:41:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870790;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:41:41";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870789;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:41:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870787;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:41:41";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870788;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:41:41";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870721;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:40:46";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870720;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:40:46";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870719;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:40:46";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870717;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:40:46";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870718;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:40:46";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10870723;alarmACmainsTrap;RC_EV_SCF2_CU_SCY_1;"2014-10-09 10:40:56";10870716;linkDown;AC_AL_SA30_CU_SCY_1;"2014-10-09 10:40:46";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10870495;alarmACmainsTrap;RC_EV_SCF2_BL_ARR_1;"2014-10-09 10:37:38";NULL;NULL;NULL;NULL;"1 0";NULL
+10870490;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 10:37:35";NULL;NULL;NULL;NULL;"1 0";NULL
+10870485;alarmACmainsTrap;RC_EV_SCF2_BL_MAH_1;"2014-10-09 10:37:31";NULL;NULL;NULL;NULL;"1 0";NULL
+10870438;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 10:37:13";NULL;NULL;NULL;NULL;"1 0";NULL
+10869991;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 10:32:21";NULL;NULL;NULL;NULL;"1 0";NULL
+10869905;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 10:31:32";NULL;NULL;NULL;NULL;"1 0";NULL
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869802;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:29:55";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869801;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:29:55";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869799;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:29:55";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869800;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:29:55";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869798;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:29:55";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869797;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:29:55";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869649;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:28:52";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869647;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:28:52";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869648;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:28:52";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869646;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:28:52";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869645;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:28:52";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10869680;alarmACmainsTrap;RC_EV_SCF2_BL_SCR_1;"2014-10-09 10:29:12";10869644;linkDown;AC_AL_SA30_BL_SCR_1;"2014-10-09 10:28:52";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10869263;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 10:24:38";NULL;NULL;NULL;NULL;"1 0";NULL
+10869260;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 10:24:37";NULL;NULL;NULL;NULL;"1 0";NULL
+10868617;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 10:16:37";NULL;NULL;NULL;NULL;"1 0";NULL
+10868144;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 10:11:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10867595;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 10:05:45";NULL;NULL;NULL;NULL;"1 0";NULL
+10867453;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 10:04:21";10867438;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 10:04:14";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10867453;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 10:04:21";10867439;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 10:04:14";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10867453;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 10:04:21";10867437;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 10:04:14";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10867453;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 10:04:21";10867436;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 10:04:14";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10867453;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 10:04:21";10867434;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 10:04:14";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10867453;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 10:04:21";10867435;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 10:04:14";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867522;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:04:56";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867521;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:04:56";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867520;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:04:56";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867518;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:04:56";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867519;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:04:56";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867517;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:04:56";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867386;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:03:55";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867385;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:03:55";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867383;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:03:55";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867384;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:03:55";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867382;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:03:55";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10867414;alarmACmainsTrap;RC_EV_SCF2_CS_MBC_1;"2014-10-09 10:04:10";10867381;linkDown;AC_AL_SA30_CS_MBC_1;"2014-10-09 10:03:55";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867489;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:04:42";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867488;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:04:42";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867487;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:04:42";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306282496"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867486;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:04:42";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867485;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:04:42";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867484;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:04:42";"1 0";"Link down on interface 306282496.  Admin state: $2.  Operational state: $3 "
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867353;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:03:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867352;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:03:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867350;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:03:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867351;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:03:39";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867349;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:03:39";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10867363;alarmACmainsTrap;RC_EV_SCF2_CS_SDI_1;"2014-10-09 10:03:49";10867348;linkDown;AC_AL_SA30_CS_SDI_1;"2014-10-09 10:03:39";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10867016;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 10:00:18";NULL;NULL;NULL;NULL;"1 0";NULL
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866859;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:32";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866857;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:32";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866858;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:32";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866856;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:32";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866855;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:32";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866854;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:32";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866801;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866800;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866799;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:07";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866797;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866798;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:07";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10866770;alarmACmainsTrap;RC_EV_SCF2_SU_PLM_1;"2014-10-09 09:57:55";10866796;linkDown;AC_AL_SA30_SU_PLM_1;"2014-10-09 09:58:07";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10866747;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 09:57:45";NULL;NULL;NULL;NULL;"1 0";NULL
+10866487;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 09:54:34";NULL;NULL;NULL;NULL;"1 0";NULL
+10865978;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 09:49:21";NULL;NULL;NULL;NULL;"1 0";NULL
+10865346;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 09:43:03";NULL;NULL;NULL;NULL;"1 0";NULL
+10864267;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 09:31:08";NULL;NULL;NULL;NULL;"1 0";NULL
+10863667;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 09:24:03";NULL;NULL;NULL;NULL;"1 0";NULL
+10863606;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 09:23:27";NULL;NULL;NULL;NULL;"1 0";NULL
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863439;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:34";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863437;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:34";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863438;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:34";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863436;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:34";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863435;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:34";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863434;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:34";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863397;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:03";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863398;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:03";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863395;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:03";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863396;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:03";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306282496"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863394;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:03";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10863425;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 09:21:28";10863393;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 09:21:03";"1 0";"Link down on interface 306282496.  Admin state: $2.  Operational state: $3 "
+10862915;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 09:16:44";NULL;NULL;NULL;NULL;"1 0";NULL
+10858244;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 08:31:25";NULL;NULL;NULL;NULL;"1 0";NULL
+10857474;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 08:23:02";NULL;NULL;NULL;NULL;"1 0";NULL
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857552;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:23:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857551;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:23:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857549;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:23:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857550;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:23:48";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857548;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:23:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857547;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:23:48";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857447;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:22:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857446;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:22:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857444;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:22:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857445;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:22:48";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857443;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:22:48";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10857471;alarmACmainsTrap;RC_EV_SCF2_MG_SBP_1;"2014-10-09 08:23:01";10857442;linkDown;AC_AL_SA30_MG_SBP_1;"2014-10-09 08:22:48";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10857426;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 08:22:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10856274;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 08:12:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10856255;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 08:11:59";NULL;NULL;NULL;NULL;"1 0";NULL
+10855426;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 08:03:59";NULL;NULL;NULL;NULL;"1 0";NULL
+10855390;alarmACmainsTrap;RC_EV_SCF2_BL_BLB_1;"2014-10-09 08:03:37";NULL;NULL;NULL;NULL;"1 0";NULL
+10855389;alarmACmainsTrap;RC_EV_SCF2_BL_HAT_1;"2014-10-09 08:03:37";NULL;NULL;NULL;NULL;"1 0";NULL
+10855375;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 08:03:31";NULL;NULL;NULL;NULL;"1 0";NULL
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855465;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:04:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855464;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:04:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855463;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:04:19";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 302055424"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855462;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:04:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855461;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:04:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 302055424"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855460;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:04:19";"1 0";"Link down on interface 302055424.  Admin state: $2.  Operational state: $3 "
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855347;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:03:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855345;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:03:19";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855346;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:03:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855344;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:03:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855343;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:03:19";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10855371;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 08:03:29";10855342;linkDown;AC_AL_SA30_BL_ALR_1;"2014-10-09 08:03:19";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10854501;alarmACmainsTrap;RC_EV_SCF2_MG_SNV_1;"2014-10-09 07:57:40";NULL;NULL;NULL;NULL;"1 0";NULL
+10854473;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 07:57:32";NULL;NULL;NULL;NULL;"1 0";NULL
+10854308;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 07:56:14";NULL;NULL;NULL;NULL;"1 0";NULL
+10854058;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:53:29";10853930;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:52:29";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10854058;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:53:29";10853928;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:52:29";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10854058;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:53:29";10853929;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:52:29";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10854058;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:53:29";10853927;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:52:29";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10854058;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:53:29";10853926;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:52:29";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10854058;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:53:29";10853925;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:52:29";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10853726;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 07:50:06";NULL;NULL;NULL;NULL;"1 0";NULL
+10853680;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 07:49:31";10853650;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 07:49:18";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10853680;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 07:49:31";10853649;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 07:49:18";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10853680;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 07:49:31";10853648;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 07:49:18";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306266112"
+10853680;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 07:49:31";10853646;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 07:49:18";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10853680;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 07:49:31";10853645;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 07:49:18";"1 0";"Link down on interface 306266112.  Admin state: $2.  Operational state: $3 "
+10853680;alarmACmainsTrap;RC_EV_SCF2_MT_CUL_1;"2014-10-09 07:49:31";10853647;linkDown;AC_AL_SA30_MT_CUL_1;"2014-10-09 07:49:18";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306266112"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853767;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:50:29";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853768;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:50:29";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853766;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:50:29";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306282496"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853765;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:50:29";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853764;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:50:29";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306282496"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853763;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:50:29";"1 0";"Link down on interface 306282496.  Admin state: $2.  Operational state: $3 "
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853643;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:49:17";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853642;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:49:17";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853641;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:49:17";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306315264"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853640;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:49:17";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853638;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:49:17";"1 0";"Link down on interface 306315264.  Admin state: $2.  Operational state: $3 "
+10853676;alarmACmainsTrap;RC_EV_SCF2_MT_MTN_1;"2014-10-09 07:49:30";10853639;linkDown;AC_AL_SA30_MT_MTN_1;"2014-10-09 07:49:17";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306315264"
+10853510;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:48:12";10853399;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:47:13";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10853510;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:48:12";10853398;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:47:13";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10853510;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:48:12";10853396;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:47:13";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10853510;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:48:12";10853397;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:47:13";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10853510;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:48:12";10853395;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:47:13";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10853510;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:48:12";10853394;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:47:13";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10853462;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 07:47:45";NULL;NULL;NULL;NULL;"1 0";NULL
+10853235;alarmACmainsTrap;RC_EV_SCF2_CU_TBR_1;"2014-10-09 07:45:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10853225;alarmACmainsTrap;RC_EV_SCF2_CU_MNT_1;"2014-10-09 07:45:09";NULL;NULL;NULL;NULL;"1 0";NULL
+10852905;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:41:54";10852938;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:42:10";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10852905;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:41:54";10852937;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:42:10";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10852905;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:41:54";10852935;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:42:10";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10852905;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:41:54";10852936;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:42:10";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10852905;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:41:54";10852934;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:42:10";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10852905;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:41:54";10852933;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:42:10";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10852425;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:36:47";10852456;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:37:05";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10852425;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:36:47";10852455;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:37:05";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10852425;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:36:47";10852453;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:37:05";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10852425;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:36:47";10852454;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:37:05";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10852425;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:36:47";10852452;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:37:05";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10852425;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:36:47";10852451;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:37:05";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10852255;alarmACmainsTrap;RC_EV_SCF2_BL_ALR_1;"2014-10-09 07:34:30";NULL;NULL;NULL;NULL;"1 0";NULL
+10850873;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:15:51";10850878;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:15:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10850873;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:15:51";10850877;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:15:51";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10850873;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:15:51";10850875;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:15:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10850873;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:15:51";10850876;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:15:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10850873;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:15:51";10850874;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:15:51";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10850873;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:15:51";10850879;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:15:51";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10850375;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 07:09:48";NULL;NULL;NULL;NULL;"1 0";NULL
+10849974;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:05:08";10849931;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:04:32";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10849974;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:05:08";10849930;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:04:32";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10849974;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:05:08";10849929;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:04:32";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10849974;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:05:08";10849927;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:04:32";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10849974;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:05:08";10849926;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:04:32";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10849974;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 07:05:08";10849928;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 07:04:32";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10849905;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 07:04:17";NULL;NULL;NULL;NULL;"1 0";NULL
+10849461;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 06:58:41";NULL;NULL;NULL;NULL;"1 0";NULL
+10849438;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-09 06:58:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10849370;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:57:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10848752;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:49:47";10848690;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 06:48:58";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10848752;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:49:47";10848689;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 06:48:58";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10848752;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:49:47";10848687;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 06:48:58";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10848752;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:49:47";10848688;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 06:48:58";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10848752;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:49:47";10848686;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 06:48:58";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10848752;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:49:47";10848685;linkDown;AC_AL_SA30_CS_ROB_1;"2014-10-09 06:48:58";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10848722;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-09 06:49:20";NULL;NULL;NULL;NULL;"1 0";NULL
+10848518;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 06:47:13";NULL;NULL;NULL;NULL;"1 0";NULL
+10848771;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-09 06:49:58";NULL;NULL;NULL;NULL;"1 0";NULL
+10848328;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 06:45:22";10848318;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 06:45:11";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10848328;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 06:45:22";10848317;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 06:45:11";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10848328;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 06:45:22";10848316;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 06:45:11";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10848328;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 06:45:22";10848314;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 06:45:11";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10848328;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 06:45:22";10848315;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 06:45:11";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10848328;alarmACmainsTrap;RC_EV_SCF2_CU_YAC_1;"2014-10-09 06:45:22";10848313;linkDown;AC_AL_SA30_CU_YAC_1;"2014-10-09 06:45:11";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10848265;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-09 06:44:20";NULL;NULL;NULL;NULL;"1 0";NULL
+10848041;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 06:41:24";NULL;NULL;NULL;NULL;"1 0";NULL
+10848035;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-09 06:41:18";NULL;NULL;NULL;NULL;"1 0";NULL
+10847552;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 06:34:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10847671;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-09 06:36:05";NULL;NULL;NULL;NULL;"1 0";NULL
+10847435;alarmACmainsTrap;RC_EV_SCF2_MT_CAB_1;"2014-10-09 06:32:45";NULL;NULL;NULL;NULL;"1 0";NULL
+10847074;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-09 06:28:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10846748;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:23:23";NULL;NULL;NULL;NULL;"1 0";NULL
+10846470;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 06:19:57";NULL;NULL;NULL;NULL;"1 0";NULL
+10846225;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 06:16:47";NULL;NULL;NULL;NULL;"1 0";NULL
+10845918;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 06:12:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10845460;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-09 06:07:24";NULL;NULL;NULL;NULL;"1 0";NULL
+10845426;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 06:06:59";NULL;NULL;NULL;NULL;"1 0";NULL
+10845031;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 06:02:14";NULL;NULL;NULL;NULL;"1 0";NULL
+10844617;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 05:57:10";NULL;NULL;NULL;NULL;"1 0";NULL
+10844249;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 05:52:53";NULL;NULL;NULL;NULL;"1 0";NULL
+10844168;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 05:51:57";NULL;NULL;NULL;NULL;"1 0";NULL
+10843825;alarmACmainsTrap;RC_EV_SCF2_CS_ROB_1;"2014-10-09 05:47:39";NULL;NULL;NULL;NULL;"1 0";NULL
+10843238;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 05:41:07";NULL;NULL;NULL;NULL;"1 0";NULL
+10842839;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:36:39";10842800;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:36:21";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10842839;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:36:39";10842801;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:36:21";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10842839;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:36:39";10842799;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:36:21";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306200576"
+10842839;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:36:39";10842798;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:36:21";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10842839;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:36:39";10842797;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:36:21";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306200576"
+10842839;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:36:39";10842796;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:36:21";"1 0";"Link down on interface 306200576.  Admin state: $2.  Operational state: $3 "
+10842804;alarmACmainsTrap;RC_EV_SCF2_CR_VAE_1;"2014-10-09 05:36:21";NULL;NULL;NULL;NULL;"1 0";NULL
+10842713;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 05:35:02";NULL;NULL;NULL;NULL;"1 0";NULL
+10842261;alarmACmainsTrap;RC_EV_SCF2_MG_CVL_1;"2014-10-09 05:28:52";NULL;NULL;NULL;NULL;"1 0";NULL
+10842181;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 05:28:11";NULL;NULL;NULL;NULL;"1 0";NULL
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842096;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:27:14";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842095;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:27:14";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842094;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:27:14";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306184192"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842092;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:27:14";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842093;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:27:14";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306184192"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842091;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:27:14";"1 0";"Link down on interface 306184192.  Admin state: $2.  Operational state: $3 "
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842028;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:26:26";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842027;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:26:26";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842025;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:26:26";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842026;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:26:26";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842024;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:26:26";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10842042;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:26:38";10842023;linkDown;AC_AL_SA30_CS_BEC_1;"2014-10-09 05:26:26";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10841756;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 05:22:15";NULL;NULL;NULL;NULL;"1 0";NULL
+10841639;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 05:20:40";10841621;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 05:20:30";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10841639;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 05:20:40";10841620;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 05:20:30";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10841639;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 05:20:40";10841619;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 05:20:30";"1 0";"A linkDown trap signifies that the SNMPv2 entity, 306249728"
+10841639;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 05:20:40";10841618;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 05:20:30";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10841639;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 05:20:40";10841617;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 05:20:30";"1 0";"A linkDown trap signifies that the SNMP entity, acting in 306249728"
+10841639;alarmACmainsTrap;RC_EV_SCF2_CS_EPA_1;"2014-10-09 05:20:40";10841616;linkDown;AC_AL_SA30_CS_EPA_1;"2014-10-09 05:20:30";"1 0";"Link down on interface 306249728.  Admin state: $2.  Operational state: $3 "
+10841249;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 05:15:18";NULL;NULL;NULL;NULL;"1 0";NULL
+10841245;alarmACmainsTrap;RC_EV_SCF2_MG_CVL_1;"2014-10-09 05:15:12";NULL;NULL;NULL;NULL;"1 0";NULL
+10840801;alarmACmainsTrap;RC_EV_SCF2_BL_ZAM_1;"2014-10-09 05:09:38";NULL;NULL;NULL;NULL;"1 0";NULL
+10840751;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 05:08:53";NULL;NULL;NULL;NULL;"1 0";NULL
+10840747;alarmACmainsTrap;RC_EV_SCF2_CS_BEC_1;"2014-10-09 05:08:50";NULL;NULL;NULL;NULL;"1 0";NULL
+10840689;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 05:08:04";NULL;NULL;NULL;NULL;"1 0";NULL
+10840383;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 05:03:19";NULL;NULL;NULL;NULL;"1 0";NULL
+10840254;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 05:01:49";NULL;NULL;NULL;NULL;"1 0";NULL
+10839964;alarmACmainsTrap;RC_EV_SCF2_BL_MGG_1;"2014-10-09 04:57:52";NULL;NULL;NULL;NULL;"1 0";NULL
+10839674;alarmACmainsTrap;RC_EV_SCF2_BL_ELG_1;"2014-10-09 04:54:33";NULL;NULL;NULL;NULL;"1 0";NULL
