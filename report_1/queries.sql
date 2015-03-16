@@ -513,11 +513,11 @@ ORDER BY 2,1
 
 
 --SIXTH SCENARIO: Breaker Fuse Alarms. When the breaker opens (jump) in a node, all the radios supported by the breaker will shutdown and there will be link down alarms
-SELECT 'Total Alarms',COUNT(*),0 FROM events.plugin_camm_snmptt_201410 WHERE eventname='systemUrgentAlarm' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%' 
+SELECT 'Total Alarms',COUNT(*),0 FROM events.plugin_camm_snmptt_201410 WHERE eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%' 
 UNION ALL
 SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
 FROM
-(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE eventname='systemUrgentAlarm' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%' GROUP BY 1,2,3,4) T1
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%' GROUP BY 1,2,3,4) T1
 GROUP BY 1
 WITH ROLLUP
 +--------------+----------+--------+
@@ -609,7 +609,7 @@ FROM
             formatline
     FROM
         events.plugin_camm_snmptt_201410
-    WHERE eventname='systemUrgentAlarm' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%') AS T1
+    WHERE eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%') AS T1
         LEFT OUTER JOIN
     events.plugin_camm_snmptt_201410 T2 ON (T2.traptime BETWEEN date_add(T1.traptime,
         INTERVAL - 60 SECOND) AND date_add(T1.traptime,
