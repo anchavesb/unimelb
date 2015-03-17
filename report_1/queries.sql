@@ -523,11 +523,11 @@ WITH ROLLUP
 +--------------+----------+--------+
 | Total Alarms | COUNT(*) | 0      |
 +--------------+----------+--------+
-| Total Alarms |     1404 | 0.0000 |
-| 1            |     1154 | 0.0259 |
-| 2            |      101 | 0.0023 |
+| Total Alarms |     1346 | 0.0000 |
+| 1            |     1100 | 0.0247 |
+| 2            |       99 | 0.0022 |
 | 3            |       16 | 0.0004 |
-| NULL         |     1271 | 0.0285 |
+| NULL         |     1215 | 0.0272 |
 +--------------+----------+--------+
 
 SELECT 'Total Alarms',COUNT(*),0 AS P FROM events.plugin_camm_snmptt_201410 WHERE eventname = 'omsTrapAlarmNotificationClear' AND formatline LIKE '%Link Down%'  AND substring(formatline, 1, 10) IN ('AC_ER_SP10','AG_ER_SP60') AND formatline NOT LIKE '% 7:6%'
@@ -609,7 +609,7 @@ FROM
             formatline
     FROM
         events.plugin_camm_snmptt_201410
-    WHERE eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%') AS T1
+    WHERE eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%') AS T1
         LEFT OUTER JOIN
     events.plugin_camm_snmptt_201410 T2 ON (T2.traptime BETWEEN date_add(T1.traptime,
         INTERVAL - 60 SECOND) AND date_add(T1.traptime,
@@ -618,6 +618,7 @@ GROUP BY 1,2,3,4) AS TT
 GROUP BY 1,2
 ORDER BY 2,1
 
+P(a1|at)	0.0271604938
 
 --OPTIMIZING DB
 mysql> SELECT eventname,count(*) FROM plugin_camm_snmptt_201410 GROUP BY 1 order by 2 desc LIMIT 10;

@@ -609,7 +609,7 @@ FROM
             formatline
     FROM
         events.plugin_camm_snmptt_201410
-    WHERE eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%') AS T1
+    WHERE eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%') AS T1
         LEFT OUTER JOIN
     events.plugin_camm_snmptt_201410 T2 ON (T2.traptime BETWEEN date_add(T1.traptime,
         INTERVAL - 60 SECOND) AND date_add(T1.traptime,
