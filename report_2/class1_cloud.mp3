@@ -1,0 +1,13 @@
+grep AC_ER hosts | awk '{print $1","$2}' > spos_ips.txt 
+for line in $(cat spos_ips.txt);do 
+name=$(echo $line | cut -d',' -f2);
+ip=$(echo $line | cut -d',' -f1);
+echo "UPDATE plugin_camm_snmptt_201410 SET formatline=concat('"$name"',' ',formatline) WHERE eventname='omsTrapAlarmNotificationClear' AND formatline LIKE '"$ip"%'" |mysql -v -uroot -pascb8308 events
+done
+UPDATE plugin_camm_snmptt_201410 SET formatline=concat('AC_ER_SP10_NR_CUA_1',' ',formatline) WHERE eventname='omsTrapAlarmNotificationClear' AND formatline LIKE '172.16.53.163%'
+alter table events.plugin_camm_snmptt_201410 add column st_town char(6);
+update events.plugin_camm_snmptt_201410 set st_town=substring(hostname, 12, 6);
+update events.plugin_camm_snmptt_201410 set st_town=substring(formatline, 12, 6) where hostname='192.168.168.1';
+create index ix_st_town on events.plugin_camm_snmptt_201410(st_town);
+optimize table plugin_camm_snmptt_201410;
+

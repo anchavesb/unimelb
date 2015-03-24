@@ -636,7 +636,7 @@ mysql> SELECT eventname,count(*) FROM plugin_camm_snmptt_201410 GROUP BY 1 order
 | mv36NeNotification            |    58691 |
 | tnPmBinsRolledOverNotif       |    51187 |
 +-------------------------------+----------+
-delete from plugin_camm_snmptt_201410 where eventname IN ('swVersionsCompatibleClear','timeClockSet','tnPmBinsRolledOverNotif');
+
 -- host=192.168.168.1 '172.16.53.163 ClearTrap 1: 1412947424 2: 141 3: 4917 4:  5:LANXPort:slot=3;port=2 6:  7:6 8:141 9: Link down 10: 87'
 
 
@@ -654,13 +654,96 @@ update events.plugin_camm_snmptt_201410 set st_town=substring(formatline, 12, 6)
 create index ix_st_town on events.plugin_camm_snmptt_201410(st_town);
 optimize table plugin_camm_snmptt_201410;
 
+----------------------------------------
+--MORE CASES
+-----------------------------------------
+--SEVENTH SCENARIO
+SELECT 'Total Alarms',COUNT(*),0 FROM events.plugin_camm_snmptt_201410 WHERE eventname IN ('alarmController1proginputTrap','alarmMajorLowBattVoltTrap','alarmDistributionBreakerOpenTrap','alarmBatteryBreakerOpenTrap') AND formatline LIKE '1%' AND (eventname!='alarmController1proginputTrap' OR formatline LIKE '%DPS%')
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE eventname IN ('alarmController1proginputTrap','alarmMajorLowBattVoltTrap','alarmDistributionBreakerOpenTrap','alarmBatteryBreakerOpenTrap') AND formatline LIKE '1%' AND (eventname!='alarmController1proginputTrap' OR formatline LIKE '%DPS%') GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
++--------------+----------+--------+
+| Total Alarms | COUNT(*) | 0      |
++--------------+----------+--------+
+| Total Alarms |      265 | 0.0000 |
+| 1            |      261 | 0.0059 |
+| 2            |        2 | 0.0000 |
+| NULL         |      263 | 0.0059 |
++--------------+----------+--------+
 
---SECOND SCENARIO: PTK DOWN --PENDIENTE
-SELECT 
+
+SELECT alarmsAC, alarmsLinkDown,COUNT(*)
+FROM 
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(DISTINCT id) AS alarmsAC, count(DISTINCT i2) AS alarmsLinkDown
+FROM
+(SELECT 
+    T1.id,
     T1.eventname,
     T1.hostname,
     T1.traptime,
-    T2.id,
+    T2.id as i2,
+    T2.eventname e2,
+    T2.hostname h2,
+    T2.traptime t2,
+    T1.formatline,
+    T2.formatline fl2
+FROM
+    (SELECT
+        id, 
+        eventname,
+            hostname,
+            st_town,
+            traptime,
+            formatline
+    FROM
+        events.plugin_camm_snmptt_201410
+    WHERE
+        eventname IN ('alarmController1proginputTrap','alarmMajorLowBattVoltTrap','alarmDistributionBreakerOpenTrap','alarmBatteryBreakerOpenTrap') AND formatline LIKE '1%' AND (eventname!='alarmController1proginputTrap' OR formatline LIKE '%DPS%')) AS T1
+        LEFT OUTER JOIN
+    events.plugin_camm_snmptt_201410 T2 ON (T2.traptime BETWEEN date_add(T1.traptime,
+        INTERVAL - 60 SECOND) AND date_add(T1.traptime, INTERVAL 60 SECOND) AND T2.eventname = 'linkDown'
+        AND substring(T2.hostname, 1, 10) = 'AC_AL_SA30'
+        AND T2.st_town = T1.st_town)) t1
+GROUP BY 1,2,3,4) AS TT
+GROUP BY 1,2
+ORDER BY 2,1
+
+P(a1|at)	0.7186311787
+
+--------------------
+--EIGHT
+
+SELECT 'Total Alarms',COUNT(*),0 FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'systemUrgentAlarm' AND (formatline LIKE '%Fus%' OR formatline like '%Ua low%') AND formatline NOT LIKE '%Value: 1%'
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'systemUrgentAlarm' AND (formatline LIKE '%Fus%' OR formatline like '%Ua low%') AND formatline NOT LIKE '%Value: 1%' GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
++--------------+----------+--------+
+| Total Alarms | COUNT(*) | 0      |
++--------------+----------+--------+
+| Total Alarms |     1561 | 0.0000 |
+| 1            |     1281 | 0.0287 |
+| 2            |      116 | 0.0026 |
+| 3            |       16 | 0.0004 |
+| NULL         |     1413 | 0.0317 |
++--------------+----------+--------+
+
+
+SELECT alarmsAC, alarmsLinkDown,COUNT(*)
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(DISTINCT id) AS alarmsAC, count(DISTINCT i2) AS alarmsLinkDown
+FROM 
+(SELECT 
+    T1.id,
+    T1.eventname,
+    T1.hostname,
+    T1.traptime,
+    T2.id as i2,
     T2.eventname e2,
     T2.hostname h2,
     T2.traptime t2,    
@@ -668,19 +751,43 @@ SELECT
     T1.formatline
 FROM
     (SELECT 
+        id,
         eventname,
             hostname,
-            substring(hostname, 12, 6) as st_town,
+            st_town,
             traptime,
             formatline
     FROM
         events.plugin_camm_snmptt_201410
-    WHERE formatline LIKE '%PTK%' and eventname='linkDown' and hostname NOT IN ('AG_AL_SR50_CU_NEM_1','CN_AL_SR50_CU_BOG_DIV_1') limit 5) AS T1
-LEFT OUTER JOIN
+    WHERE
+        hostname LIKE 'RC%' AND eventname = 'systemUrgentAlarm' AND (formatline LIKE '%Fus%' OR formatline like 'Ua low') AND formatline NOT LIKE '%Value: 1%') AS T1
+        LEFT OUTER JOIN
     events.plugin_camm_snmptt_201410 T2 ON (T2.traptime BETWEEN date_add(T1.traptime,
         INTERVAL - 60 SECOND) AND date_add(T1.traptime,
-        INTERVAL 60 SECOND))
-ORDER BY T1.hostname,T1.traptime,T2.traptime
+        INTERVAL 60 SECOND) AND T2.eventname = 'omsTrapAlarmNotificationClear' AND T2.formatline LIKE '%Link Down%' AND T2.formatline NOT LIKE '% 7:6%' AND T2.st_town = T1.st_town)) t1
+GROUP BY 1,2,3,4) AS TT
+GROUP BY 1,2
+ORDER BY 2,1
 
-CN_AL_SR50_CU_BOG_DIV_1
+P(a2|at)	0.8771358828
 
+
+
+SELECT 
+    T1.vbind2,T1.vbind3, T2.eventname, T2.vbind1, T2.vbind3, count(*),count(distinct T2.hostname)
+FROM
+    (SELECT 
+        vbind2,vbind3,eventname,traptime,st_town,FLOOR(1+RAND()*id) rid
+    FROM
+        events.plugin_camm_snmptt_201410
+    where
+        eventname = 'omsTrapAlarmNotificationClear'
+            and hostname != '192.168.168.1'
+            and severity = 'Major'
+            and vBind3 = 'Optical receiver Power Low' ORDER BY rid LIMIT 1000) T1
+        JOIN
+    events.plugin_camm_snmptt_201410 T2 ON (T2.traptime BETWEEN date_add(T1.traptime,
+        INTERVAL - 30 SECOND) AND date_add(T1.traptime,
+        INTERVAL 30 SECOND))
+GROUP BY 1,2,3,4 order by 6 desc
+--optimize table plugin_camm_snmptt_201410;
