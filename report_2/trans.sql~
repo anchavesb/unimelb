@@ -79,11 +79,7 @@ UPDATE events.plugin_camm_snmptt_201410 SET severity='Warning' WHERE eventname='
 UPDATE events.plugin_camm_snmptt_201410 SET severity='Normal' WHERE eventname='omsTrapAlarmNotificationClear' AND vBind1='6';
 
 
-optimize table plugin_camm_snmptt_201410;
-
-
-
-
+--omsTrapEventNotification
 select substring(substring(formatline,locate(' 2: ',formatline)+4),1,locate(' 3:',substring(formatline,locate(' 2: ',formatline)+4))) as nId,
 substring(substring(formatline,locate(' 4: ',formatline)+4),1,locate(' 5:',substring(formatline,locate(' 4: ',formatline)+4))) as addText,
 substring(substring(formatline,locate(' 5:',formatline)+3),1,locate(' 6: ',substring(formatline,locate(' 5:',formatline)+3))) AS objectId,
@@ -92,3 +88,27 @@ substring(substring(formatline,locate(' 8:',formatline)+3),1,locate(' 9:',substr
 substring(substring(formatline,locate(' 9:',formatline)+3),1,locate(' 10:',substring(formatline,locate(' 9:',formatline)+3))) AS card,
 substring(formatline,locate(' 10: ',formatline)+5) AS spo,
 formatline from events.plugin_camm_snmptt_201410 where eventname='omsTrapEventNotification'
+
+UPDATE plugin_camm_snmptt_201410 SET vbind1=substring(substring(formatline,locate(' 7:',formatline)+3),1,locate(' 8:',substring(formatline,locate(' 7:',formatline)+3))), vbind2=substring(substring(formatline,locate(' 4: ',formatline)+4),1,locate(' 5:',substring(formatline,locate(' 4: ',formatline)+4))), vbind3=substring(substring(formatline,locate(' 9:',formatline)+3),1,locate(' 10:',substring(formatline,locate(' 9:',formatline)+3))) where eventname='omsTrapEventNotification'
+
+
+
+--tnChangeNotif 1830
+select substring(substring(formatline, locate('object: ',formatline)+8),1,locate(' ',substring(formatline, locate('object: ',formatline)+8))) object,
+substring(substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))),1,locate('cat:',substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))+1))) name,
+reverse(substring(reverse(trim(substring(substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))),1,locate('cat:',substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))+1))))),1,locate(' ',reverse(trim(substring(substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))),1,locate('cat:',substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))+1)))))))) id,
+substring(formatline,locate('type: ',formatline)+6) as object_type,
+substring(substring(formatline,locate('desc: ',formatline)+6),1,locate(' data:',substring(formatline,locate('desc: ',formatline)+6))) as descr,
+substring(substring(formatline,locate('data: ',formatline)+6),1,locate(' changed:',substring(formatline,locate('data: ',formatline)+6))) data,
+substring(substring(formatline,locate('changed: ',formatline)+9),1,locate(' type:',substring(formatline,locate('changed: ',formatline)+9))) changed,
+formatline from events.plugin_camm_snmptt_201410 where eventname='tnChangeNotif'
+
+UPDATE plugin_camm_snmptt_201410 SET vBind1=substring(substring(formatline, locate('object: ',formatline)+8),1,locate(' ',substring(formatline, locate('object: ',formatline)+8))),
+vBind2=substring(substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))),1,locate('cat:',substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))+1))),
+vBind3=reverse(substring(reverse(trim(substring(substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))),1,locate('cat:',substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))+1))))),1,locate(' ',reverse(trim(substring(substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))),1,locate('cat:',substring(formatline, locate(substring_index(formatline,' ',2),formatline)+length(substring_index(formatline,' ',2))+1)))))))),
+vbind4=substring(formatline,locate('type: ',formatline)+6),
+vBind5=substring(substring(formatline,locate('desc: ',formatline)+6),1,locate(' data:',substring(formatline,locate('desc: ',formatline)+6))),
+vBind6=substring(substring(formatline,locate('data: ',formatline)+6),1,locate(' changed:',substring(formatline,locate('data: ',formatline)+6))),
+vBind7=substring(substring(formatline,locate('changed: ',formatline)+9),1,locate(' type:',substring(formatline,locate('changed: ',formatline)+9))) changed WHERE eventname='tnChangeNotif'
+
+optimize table plugin_camm_snmptt_201410;

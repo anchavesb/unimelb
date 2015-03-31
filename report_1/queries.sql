@@ -791,3 +791,87 @@ FROM
         INTERVAL 30 SECOND))
 GROUP BY 1,2,3,4 order by 6 desc
 --optimize table plugin_camm_snmptt_201410;
+
+--------------------------------------------------------------------
+--Bayesian Reasoning
+
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%'
+UNION ALL
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE (hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%') AND ((eventname = 'alarmACmainsTrap' AND formatline LIKE '1%') OR (eventname = 'systemCriticalAlarm' AND formatline LIKE '%Mainsfailure' AND formatline LIKE '%Id: 19%' AND formatline NOT LIKE '%Value: 1%'))
+
+
+SELECT 'Total Alarms',COUNT(*),0 AS P FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'alarmACmainsTrap' AND formatline LIKE '1%'
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'alarmMajorLowBattVoltTrap' AND formatline LIKE '1%' GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
+
+SELECT 'Total Alarms',COUNT(*),0 FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'systemUrgentAlarm' AND formatline LIKE '%Ua Low%' AND formatline NOT LIKE '%Value: 1%' 
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'systemCriticalAlarm' AND formatline LIKE '%Mainsfailure' AND formatline LIKE '%Id: 19%' AND formatline NOT LIKE '%Value: 1%' GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
+
+SELECT 'Total Alarms',COUNT(*),0 AS P FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'alarmACmainsTrap' AND formatline LIKE '1%'
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'alarmDistributionBreakerOpenTrap' AND formatline LIKE '1%' GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
+
+SELECT 'Total Alarms',COUNT(*),0 AS P FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'alarmACmainsTrap' AND formatline LIKE '1%'
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname IN ('alarmController1proginputTrap','alarmBatteryBreakerOpenTrap') AND formatline LIKE '1%' AND (eventname!='alarmController1proginputTrap' OR formatline LIKE '%DPS%') GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
+
+SELECT 'Total Alarms',COUNT(*),0 AS P FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'alarmACmainsTrap' AND formatline LIKE '1%'
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%' GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
+
+SELECT 'Total Alarms',COUNT(*),0 AS P FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'alarmACmainsTrap' AND formatline LIKE '1%'
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE eventname='alarmController1proginputTrap' AND (formatline like '%Puerta%' OR formatline like '%Porta%') AND formatline LIKE '1%' GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
+
+SELECT 'Total Alarms',COUNT(*),0 AS P FROM events.plugin_camm_snmptt_201410 WHERE hostname LIKE 'RC%' AND eventname = 'alarmACmainsTrap' AND formatline LIKE '1%'
+UNION ALL
+SELECT alarms,COUNT(*),COUNT(*)/44592 AS P
+FROM
+(SELECT month(traptime),day(traptime),hour(traptime),minute(traptime),COUNT(*) AS alarms FROM events.plugin_camm_snmptt_201410 WHERE hostname like 'RC_DT%' AND (formatline like '%Puerta%' OR formatline like '%Porta%') AND formatline NOT LIKE '%Value: 1%' GROUP BY 1,2,3,4) T1
+GROUP BY 1
+WITH ROLLUP
+
+
+
+
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%'
+UNION ALL
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE (hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%') AND ((eventname='alarmMajorLowBattVoltTrap' AND formatline LIKE '1%') OR (eventname = 'systemUrgentAlarm' AND formatline like '%Ua low%' AND formatline NOT LIKE '%Value: 1%'))
+
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%'
+UNION ALL
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE (hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%') AND (eventname='alarmDistributionBreakerOpenTrap' AND formatline LIKE '1%')
+
+
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%'
+UNION ALL
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE (hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%') AND ((eventname IN ('alarmController1proginputTrap','alarmBatteryBreakerOpenTrap') AND formatline LIKE '1%' AND (eventname!='alarmController1proginputTrap' OR formatline LIKE '%DPS%')) OR (eventname='systemUrgentAlarm' and hostname LIKE 'RC%' and formatline LIKE '%Fusible%' AND formatline NOT LIKE '%Value: 1%'))  
+
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%'
+UNION ALL
+SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE (hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%') AND ((eventname='alarmController1proginputTrap' AND (formatline like '%Puerta%' OR formatline like '%Porta%') AND formatline LIKE '1%')) OR (hostname like 'RC_DT%' AND (formatline like '%Puerta%' OR formatline like '%Porta%') AND formatline NOT LIKE '%Value: 1%'))  
