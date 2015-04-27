@@ -91,7 +91,44 @@ formatline from events.plugin_camm_snmptt_201410 where eventname='omsTrapEventNo
 
 UPDATE plugin_camm_snmptt_201410 SET vbind1=substring(substring(formatline,locate(' 7:',formatline)+3),1,locate(' 8:',substring(formatline,locate(' 7:',formatline)+3))), vbind2=substring(substring(formatline,locate(' 4: ',formatline)+4),1,locate(' 5:',substring(formatline,locate(' 4: ',formatline)+4))), vbind3=substring(substring(formatline,locate(' 9:',formatline)+3),1,locate(' 10:',substring(formatline,locate(' 9:',formatline)+3))) where eventname='omsTrapEventNotification'
 
+--LinkDown on SmartEdges
+select substring(substring(formatline,locate('in ',formatline)+3),1,locate(' ',substring(formatline,locate('in ',formatline)+3))) ifId,
+substring(substring(substring(formatline,locate('in ',formatline)+3),locate(' ',substring(formatline,locate('in ',formatline)+3))+1),1,locate(' ',substring(substring(formatline,locate('in ',formatline)+3),locate(' ',substring(formatline,locate('in ',formatline)+3))+1))) adminStatus,
+reverse(substring(reverse(substring(formatline,locate('in ',formatline)+3)),1,locate(' ',reverse(substring(formatline,locate('in ',formatline)+3))))) oper,formatline from events.plugin_camm_snmptt_201410 where hostname LIKE '%_ER_SE%' and eventname IN ('linkdown','linkup') 
+and formatline like '%acting %'
 
+select substring(substring(formatline,locate('interface ',formatline)+10),1,locate('.',substring(formatline,locate('interface ',formatline)+10))-1) ifId,
+substring(substring(formatline,locate('Admin state: ',formatline)+13),1,locate('.',substring(formatline,locate('Admin state: ',formatline)+13))-1) as admin,
+substring(formatline,locate('Operational state: ',formatline)+19) as oper,formatline from events.plugin_camm_snmptt_201410 where hostname LIKE '%_ER_SE%' and eventname IN ('linkdown','linkup') 
+and formatline like '%on %'
+
+select substring(substring(formatline,locate(', ',formatline)+2),1,locate(' ',substring(formatline,locate(', ',formatline)+2))) ifId,
+substring(substring(substring(formatline,locate(', ',formatline)+2),locate(' ',substring(formatline,locate(', ',formatline)+2))+1),1,locate(' ',substring(substring(formatline,locate(', ',formatline)+2),locate(' ',substring(formatline,locate(', ',formatline)+2))+1))) admin,
+reverse(substring(reverse(formatline),1,locate(' ',reverse(formatline)))) oper
+ from events.plugin_camm_snmptt_201410 where hostname LIKE '%_ER_SE%' and eventname IN ('linkdown','linkup') 
+and formatline like '%entity%' and formatline not like '%acting%'
+
+UPDATE plugin_camm_snmptt_201410 SET vbind1=substring(substring(formatline,locate('in ',formatline)+3),1,locate(' ',substring(formatline,locate('in ',formatline)+3))),
+vbind2=substring(substring(substring(formatline,locate('in ',formatline)+3),locate(' ',substring(formatline,locate('in ',formatline)+3))+1),1,locate(' ',substring(substring(formatline,locate('in ',formatline)+3),locate(' ',substring(formatline,locate('in ',formatline)+3))+1))),
+vbind3=reverse(substring(reverse(substring(formatline,locate('in ',formatline)+3)),1,locate(' ',reverse(substring(formatline,locate('in ',formatline)+3))))) where hostname LIKE '%_ER_SE%' and eventname IN ('linkdown','linkup') and formatline like '%acting %'
+
+UPDATE plugin_camm_snmptt_201410 SET vbind1=substring(substring(formatline,locate('interface ',formatline)+10),1,locate('.',substring(formatline,locate('interface ',formatline)+10))-1),
+vbind2=substring(substring(formatline,locate('Admin state: ',formatline)+13),1,locate('.',substring(formatline,locate('Admin state: ',formatline)+13))-1),
+vbind3=substring(formatline,locate('Operational state: ',formatline)+19) where hostname LIKE '%_ER_SE%' and eventname IN ('linkdown','linkup') 
+and formatline like '%on %'
+
+UPDATE plugin_camm_snmptt_201410 SET vbind1=substring(substring(formatline,locate(', ',formatline)+2),1,locate(' ',substring(formatline,locate(', ',formatline)+2))),
+vbind2=substring(substring(substring(formatline,locate(', ',formatline)+2),locate(' ',substring(formatline,locate(', ',formatline)+2))+1),1,locate(' ',substring(substring(formatline,locate(', ',formatline)+2),locate(' ',substring(formatline,locate(', ',formatline)+2))+1))),
+vbind3=reverse(substring(reverse(formatline),1,locate(' ',reverse(formatline)))) where hostname LIKE '%_ER_SE%' and eventname IN ('linkdown','linkup') 
+and formatline like '%entity%' and formatline not like '%acting%'
+
+UPDATE plugin_camm_snmptt_201410 SET vbind1=substring(substring(formatline,locate('an ',formatline)+3),1,locate(' ',substring(formatline,locate('an ',formatline)+3))),
+vbind2=substring(substring(substring(formatline,locate('an ',formatline)+3),locate(' ',substring(formatline,locate('an ',formatline)+3))+1),1,locate(' ',substring(substring(formatline,locate('an ',formatline)+3),locate(' ',substring(formatline,locate('an ',formatline)+3))+1))),vbind3=
+reverse(substring(reverse(substring(formatline,locate('an ',formatline)+3)),1,locate(' ',reverse(substring(formatline,locate('an ',formatline)+3))))) where hostname LIKE '%_ER_SE%' and eventname IN ('linkdown','linkup') 
+and formatline like '%acting in an%'
+--sdpBind
+update events.plugin_camm_snmptt_201410 set vbind1=substring(formatline,locate('notification',formatline)+14) WHERE eventname='sdpBindSdpStateChangeProcessed'
+update events.plugin_camm_snmptt_201410 set vbind1=substring(substring(formatline,locate('generated',formatline)+10),1,locate(' ',substring(formatline,locate('generated',formatline)+10))) WHERE eventname='sdpStatusChanged'
 
 --tnChangeNotif 1830
 select substring(substring(formatline, locate('object: ',formatline)+8),1,locate(' ',substring(formatline, locate('object: ',formatline)+8))) object,

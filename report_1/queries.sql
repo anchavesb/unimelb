@@ -875,3 +875,92 @@ SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE (hos
 SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%'
 UNION ALL
 SELECT COUNT(distinct hostname) FROM events.plugin_camm_snmptt_201410 WHERE (hostname like 'RC_DT%' OR hostname LIKE 'RC_EV%') AND ((eventname='alarmController1proginputTrap' AND (formatline like '%Puerta%' OR formatline like '%Porta%') AND formatline LIKE '1%')) OR (hostname like 'RC_DT%' AND (formatline like '%Puerta%' OR formatline like '%Porta%') AND formatline NOT LIKE '%Value: 1%'))  
+
+--RULES CUT PERCENTAGE
+--sdpStatusChanged + sdpChangeProcessed ALU
+SELECT count(*)
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname IN ('sdpStatusChanged','sdpBindSdpStateChangeProcessed')
+
+10696
+
+SELECT count(*),sum(t1.numAlarms+t2.numAlarms) 
+FROM
+(SELECT traptime,hostname, eventname, vbind1,count(*) as numAlarms
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname = 'sdpBindSdpStateChangeProcessed'
+group by traptime,hostname, eventname, vbind1) t1
+LEFT OUTER JOIN
+(SELECT traptime,hostname, eventname, vbind1,count(*) as numAlarms
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname = 'sdpStatusChanged' group by traptime,hostname,eventname, vbind1) t2
+ ON t2.traptime BETWEEN date_add(t1.traptime, INTERVAL -6 SECOND) AND date_add(t1.traptime, INTERVAL 2 SECOND) AND t1.vbind1=t2.vbind1 AND t1.hostname=t2.hostname
+
+2175
+
+--"tmnxStateChange"+"svcStatusChanged"+"sdpStatusChanged"
+SELECT count(*)
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname IN ('svcStatusChanged','tmnxStateChange','sdpStatusChanged','sdpBindStatusChanged')
+
+34408
+
+SELECT hostname, traptime,eventname,count(*) as alarms
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname='svcStatusChanged'
+GROUP BY traptime,eventname,hostname
+UNION ALL 
+SELECT hostname, traptime,eventname,count(*) as alarms
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname='tmnxStateChange'
+GROUP BY traptime,eventname,hostname
+UNION ALL 
+SELECT hostname, traptime,eventname,count(*) as alarms
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname='sdpStatusChanged'
+UNION ALL 
+SELECT hostname, traptime,eventname,count(*) as alarms
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname='sdpBindStatusChanged'
+GROUP BY traptime,eventname,hostname
+ORDER BY hostname,traptime
+
+
+--AC_ER_SP10_ST_VCH_1+AG_ER_SP60_ST_ZAP_1
+SELECT *
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname IN ('omsTrapAlarmNotificationClear')
+AND hostname='AC_ER_SP10_ST_VCH_1' AND (vBind2='LANXPort:slot=4;port=11' OR vBind2='LANXPort:slot=3;port=11')
+UNION ALL
+SELECT * 
+FROM events.plugin_camm_snmptt_201410
+WHERE eventname IN ('omsTrapAlarmNotificationClear')
+AND hostname='AG_ER_SP60_ST_ZAP_1' AND (vBind2='LANXPort:slot=7;port=1' OR vBind2='LANXPort:slot=12;port=1')
+ORDER BY traptime
+
+--HSU SYNC UNSYNC
+select id,eventname,hostname,traptime,formatline 
+from events.plugin_camm_snmptt_201410 
+where eventname iN ('hbsUnregisteredUnsynchronizedHsu','hbsUnregisteredSynchronizedHsu')
+order by hostname,traptime
+
+
+SELECT t1.id,t1.hostname,t1.traptime,t1.eventname,count(t2.id)
+FROM events.plugin_camm_snmptt_201410 t1 JOIN events.plugin_camm_snmptt_201410 t2 ON (t1.hostname=t2.hostname AND t2.traptime>t1.traptime AND t2.traptime<date_add(t1.traptime, INTERVAL 10 SECOND))
+WHERE t1.hostname='AG_AL_SR50_CU_NEM_1' AND t1.traptime between '2014-10-27 00:00:00' and '2014-10-27 23:59:59'
+GROUP BY t1.id
+order by t1.hostname,t1.traptime
+
+--LinkUp - RbnLinkUp
+select eventname,count(*)
+FROM
+(select distinct traptime,hostname, eventname,vbind1,vbind2,vbind3 from events.plugin_camm_snmptt_201410 where eventname in ('rbnNElinkUp','linkUp') AND hostname LIKE '%ER_SE%') t1
+group by 1
+
+--LinkDown - RbnLinkDown
+select eventname,count(*)
+FROM
+(select distinct traptime,hostname, eventname,vbind1,vbind2,vbind3 from events.plugin_camm_snmptt_201410 where eventname in ('rbnNElinkDown','linkDown') AND hostname LIKE '%ER_SE%') t1
+group by 1
+
+
